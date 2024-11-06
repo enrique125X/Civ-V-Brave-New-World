@@ -73,7 +73,7 @@
         "hurryCostModifier": 15,
         "uniques": ["[+5]% [Production] [in this city]",
             "[+25]% [Gold] [in this city]"],
-        "requiredBuilding": "Market",
+		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
     },
 	// wonders
@@ -110,8 +110,10 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <after adopting [Piety]>", "Hidden when religion is disabled",
-			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
+		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <after adopting [Piety]>", "Only available <when religion is enabled>",
+			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"
+		],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
@@ -183,7 +185,7 @@
 		"name": "Borobudur",
 		"faith": 5,
 		"isWonder": true,
-		"uniques": [ "Can only be built [in holy cities]","[3] free [Missionary] units appear"],
+		"uniques": [ "Can only be built <in [in holy cities] cities>","[3] free [Missionary] units appear"],
 		"requiredTech": "Theology",
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
 	},
@@ -192,8 +194,11 @@
         "cost": 125,
         "gold": 4,
         "isNationalWonder": true,
-        "uniques": ["[+1 Gold] from each Trade Route",
-            "Cost increases by [30] per owned city","Requires a [Market] in all cities"],
+		"requiredBuilding": "Market",
+        "uniques": [
+			"[+1 Gold] from each Trade Route",
+            "Cost increases by [30] per owned city"
+		],
         "requiredTech": "Guilds"
     },
 	 {
