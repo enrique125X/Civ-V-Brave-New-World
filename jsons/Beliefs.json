@@ -18,5 +18,81 @@
         "name": "Tears of the Gods",
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Gems]","[+2 Faith] from every [Pearls]"]
-    }
+    },
+    {
+        "name": "Ceremonial Burial",
+        "type": "Founder",
+        "uniques": [
+            // TODO: +1 Happiness Happiness for every 2 Cities following this religion
+            "[+1 Happiness] for each global city following this religion"
+        ]
+    },
+    // Enhancer
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": [
+            "[+25]% Natural religion spread [in all cities]",
+            "[+25]% Natural religion spread [in all cities] <after discovering [Printing Press]>"
+        ]
+    },
+
+    // Reformation Beliefs
+    {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            // +20% Combat Strength Combat Strength near friendly cities that follow this religion 
+            "[20]% Stength <in your cities> <in cities following our religion>"
+        ]
+    },
+    {
+        "name": "Holy Order",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            // Missionaries and Inquisitors cost 30% less Faith Faith
+        ]
+    },
+    {
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            // Religion spreads to cities 30% further away
+        ]
+    },
+    {
+        "name": "Just War",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            // +20% Combat Strength Combat Strength near enemy cities that follow this religion 
+        ]
+    },
+    {
+        "name": "Messiah",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            //  	Prophets 25% stronger and earned with 25% less Faith Faith
+        ]
+    },
+    {
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            //  	Missionary conversion strength +25% 
+        ]
+    },
+    {
+        "name": "Reliquary",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            // Gain 50 Faith Faith each time a Great Person is expended
+        ]
+    },
 ]
