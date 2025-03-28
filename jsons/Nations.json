@@ -44,7 +44,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Treasures of Nineveh",
-		"uniques": ["[+25]% [Science] [in annexed cities]"]
+		"uniques": ["[+25]% [Science] [in annexed cities]"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -977,5 +977,5 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [176, 189, 207],
 		"cities": ["Wittenberg"]
-	},
+	}
 ]
