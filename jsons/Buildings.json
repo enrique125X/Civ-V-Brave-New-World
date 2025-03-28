@@ -26,7 +26,7 @@
 		"uniqueTo": "Assyria",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] XP [in this city]"],
 		"requiredTech": "Writing"
 	},
 	   {
@@ -37,10 +37,13 @@
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "hurryCostModifier": 25,
-        "uniques": ["New [Mounted] units start with [15] Experience [in this city]","[+15]% Production when constructing [Mounted] units [in this city]",
+        "uniques": [
+			"New [Mounted] units start with [15] XP [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
 			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"
+		],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -50,7 +53,7 @@
         "cost": 75,
         "hurryCostModifier": 25,
         "maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"],
+		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] XP [in this city]","All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"],
         "requiredTech": "Bronze Working"
     },
 	    {

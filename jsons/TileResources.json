@@ -6,8 +6,13 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [32] tiles <in [{Featureless} {Plains}] tiles>",
-		"Generated on every [36] tiles <in [{Featureless} {Grassland}] tiles>"]
+		"uniques": [
+			"Generated on every [32] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [36] tiles <in [{Featureless} {Grassland}] tiles>"
+		],
+		"civilopediaText": [
+			{ "text": "The North American bison, which once covered the Great Plains in massive herds, was the primary source for the meat, sinew, hide and bone necessary for survival by many native tribes. Hunted to near extinction by Americans in the late 1800s, in recent years the buffalo has made a comeback due to federal and state wildlife programs." }
+		]
 	},
 	{
 		"name": "Cocoa",
@@ -19,45 +24,33 @@
 		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Doesn't generate naturally <in [Tundra] tiles>"]
-	},
-	{
-		"name": "Iron",
-		"resourceType": "Strategic",
-		"revealedBy": "Bronze Working",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-		"production": 1,
-		"improvement": "Mine",
-		"uniques": ["Guaranteed with Strategic Balance resource option",
-					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
-					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
-					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
-					"Generated with weight [26] <in [Hill] tiles>",
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
-					"Minor deposits generated with weight [20] <in [Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+					"Doesn't generate naturally <in [Tundra] tiles>"],
+		"civilopediaText": [
+			{ "text": "Cocoa beans, the product of the cacao tree native to South America, was an important commodity in pre-Columbian Mesoamerica, and figured prominently in tribal cultures. Introduced by the Spanish to Europe, by the mid-1700s it was immensely popular there as a beverage, cooking ingredient, and even as a medicine." }
+		]
 	},
 	{
 		"name": "Nutmeg", 
 		"gold": 2,
-		"resourceType": "Luxury"
+		"resourceType": "Luxury",
+		"civilopediaText": [
+			{ "text": "Nutmeg trees are evergreens indigenous to the Banda Islands in Indonesia. Nutmeg has been used in the culinary culture of several civilizations for centuries. In Penang cuisine it is often boiled or blended as a drink; in India it used as a sweet; and in Middle Eastern cooking it is used to spice savory dishes. But it was the discovery of the source of nutmeg in Indonesia in 1511 AD by the Portuguese explorer Albuquerque that set off the rush to import the spice to the tables of Europe." }
+		]
 	},
 	{
 		"name": "Cloves", 
 		"gold": 2,
-		"resourceType": "Luxury"
+		"resourceType": "Luxury",
+		"civilopediaText": [
+			{ "text": "Cloves are the dried flower bud from a tree native to the Maluku Islands in Indonesia; an aromatic spice, it is used in cuisines worldwide. Now harvested primarily in Indonesia, India, Zanzibar and Madagascar, cloves have a numbing effect on mouth tissues and have been used in the past as a medicine and a drug as well as a spice. Until planted outside the islands, the Dutch East India Company had a virtual monopoly on the spice; in Europe in the 17th and 18th centuries, cloves were quite literally worth their weight in gold due to the demand." }
+		]
 	},
 	{
 		"name": "Pepper", 
 		"gold": 2,
-		"resourceType": "Luxury"
+		"resourceType": "Luxury",
+		"civilopediaText": [
+			{ "text": "Pepper, in many forms, has been grown virtually everywhere in the world and used for millennia to season our food. Black peppercorns were found in the nostrils of Ramesses II, part of the mummification process. It has been used in Southeast Asian cuisine since the 2nd century BC. Archaeological finds indicate that various hot peppers were used by the Aztecs and Mayans in cooking. In Rome, so valuable was pepper that it was used as collateral for loans, and Attila demanded a ton of pepper to spare the city in the 5th Century AD. Pepper has justifiably been called the \"king of spice.\"" }
+		]
 	}
 ]
