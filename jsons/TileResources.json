@@ -30,7 +30,7 @@
 		]
 	},
 	{
-		"name": "Nutmeg", 
+		"name": "Nutmeg",
 		"gold": 2,
 		"resourceType": "Luxury",
 		"civilopediaText": [
@@ -38,7 +38,7 @@
 		]
 	},
 	{
-		"name": "Cloves", 
+		"name": "Cloves",
 		"gold": 2,
 		"resourceType": "Luxury",
 		"civilopediaText": [
@@ -46,11 +46,43 @@
 		]
 	},
 	{
-		"name": "Pepper", 
+		"name": "Pepper",
 		"gold": 2,
 		"resourceType": "Luxury",
 		"civilopediaText": [
 			{ "text": "Pepper, in many forms, has been grown virtually everywhere in the world and used for millennia to season our food. Black peppercorns were found in the nostrils of Ramesses II, part of the mummification process. It has been used in Southeast Asian cuisine since the 2nd century BC. Archaeological finds indicate that various hot peppers were used by the Aztecs and Mayans in cooking. In Rome, so valuable was pepper that it was used as collateral for loans, and Attila demanded a ton of pepper to spare the city in the 5th Century AD. Pepper has justifiably been called the \"king of spice.\"" }
 		]
+	},
+    {
+        "name": "Antiquity Site",
+        "resourceType": "Bonus",
+        "revealedBy": "Archaeology",
+        "terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
+        "improvement": "Archaeological Dig",
+        "uniques": ["Generated on every [150] tiles"]
+    },
+	/*
+	// TODO: Add Hidden Antiquity site https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
+	{
+		"name": "Hidden Antiquity Site",
+		"resourceType": "Bonus",
+		"revealedBy": "Archaeology",
+		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest", "Jungle", "Marsh"]
 	}
+	*/
+    {
+        "name": "Great Work of Writing",
+        "resourceType": "Strategic",
+        "uniques": ["Stockpiled"]
+    },
+    {
+        "name": "Great Work of Art",
+        "resourceType": "Strategic",
+        "uniques": ["Stockpiled"]
+    },
+    {
+        "name": "Great Work of Music",
+        "resourceType": "Strategic",
+        "uniques": ["Stockpiled"]
+    }
 ]

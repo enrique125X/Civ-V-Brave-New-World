@@ -2,9 +2,10 @@
     {
         "name": "Cloves",
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true, 
+        "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Pepper]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
+		"requiredTech": "Astronomy"
     },
     {
         "name": "Nutmeg",
@@ -12,6 +13,7 @@
         "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Cloves]>","Only available <in cities without a [Pepper]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
+		"requiredTech": "Astronomy"
     },
     {
         "name": "Pepper",
@@ -19,6 +21,7 @@
         "isNationalWonder": true,
         "cost": 1,
         "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Cloves]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
+		"requiredTech": "Astronomy"
     },
 	{
 		"name": "Royal Library",
@@ -30,7 +33,7 @@
 		"requiredTech": "Writing"
 	},
 	   {
-        "name": "Ducal Stable", 
+        "name": "Ducal Stable",
         "replaces": "Stable",
         "uniqueTo": "Poland",
         "cost": 75,
@@ -47,7 +50,7 @@
         "requiredTech": "Horseback Riding"
     },
     {
-        "name": "Ikanda", 
+        "name": "Ikanda",
         "replaces": "Barracks",
         "uniqueTo": "Zulu",
         "cost": 75,
@@ -57,7 +60,7 @@
         "requiredTech": "Bronze Working"
     },
 	    {
-        "name": "Candi", 
+        "name": "Candi",
         "replaces": "Garden",
         "uniqueTo": "Indonesia",
         "cost": 120,
@@ -193,7 +196,7 @@
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
 	},
 	{
-        "name": "East India Company", 
+        "name": "East India Company",
         "cost": 125,
         "gold": 4,
         "isNationalWonder": true,
@@ -205,7 +208,7 @@
         "requiredTech": "Guilds"
     },
 	 {
-        "name": "Uffizi", 
+        "name": "Uffizi",
         "culture": 2,
         "specialistSlots": {"Artist": 2},
         "isWonder": true,
@@ -214,7 +217,7 @@
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
     },
 	  {
-        "name": "Prora", 
+        "name": "Prora",
         "happiness": 2,
         "isWonder": true,
         "uniques": ["[+1 Happiness] per [2] social policies adopted","Free Social Policy","Only available <after adopting [Autocracy]>"],
@@ -222,7 +225,7 @@
         "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
     },
 	{
-        "name": "Parthenon", 
+        "name": "Parthenon",
         "culture": 6,
         "isWonder": true,
         "greatPersonPoints": {"Great Artist": 1},
@@ -238,4 +241,16 @@
         "requiredTech": "Radio",
         "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
     },
-	]
+	{
+        "name": "Museum",
+		"cost": 300,
+		"maintenance": 3,
+        "culture": 1,
+        "requiredTech": "Archaeology",
+		"requiredBuilding": "Opera House",
+		"uniques": [
+			// TODO: Contains 2 slots for Great Works of Art
+			"Destroyed when the city is captured"
+		]
+    }
+]

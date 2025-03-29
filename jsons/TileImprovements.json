@@ -36,12 +36,40 @@
 	{
 		"name": "Kasbah",
 		"uniqueTo": "Morocco",
-		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Desert"],
 		"food": 1,
 		"production": 1,
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Chivalry",
 		"uniques": ["Gives a defensive bonus of [50]%"]
-	}
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Antiquity Site"],
+		"culture": 6,
+		"uniques": [
+			// TODO: +1 Culture Culture for each era of difference between the era of origin of the Antiquity Site and the current era ()
+			"Great Improvement",
+			"Removes removable features when built",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+    {
+        "name": "Archaeological Dig",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
+        "culture": 6,
+        "gold": 2,
+        "science": 2,
+        "uniques": [
+            "Great Improvement",
+            "Can be built outside your borders",
+            "Can only be built to improve a resource",
+            "Removes removable features when built",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units",
+            "Excluded from map editor"
+        ]
+    },
 ]

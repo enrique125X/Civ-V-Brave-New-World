@@ -1,0 +1,40 @@
+// TODO: Add the new Leaders https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Civilizations_and_leaders
+
+[
+    {
+        "name": "Casimir III",
+		"preferredVictoryType": "Domination", // Cultural, Scientific, Domination, Diplomatic, Time
+        "production": 8, // Production Emphasis
+        "food": 4, // Growth
+        "gold": 7, // Gold Emphasis
+        "science": 4, // Science Emphasis
+        "culture": 6, // Culture Emphasis
+        "happiness": 6, // Happiness Emphasis
+        "faith": 7, // Religion Emphasis
+        "military": 7, // Offensive Unit Production
+        "aggressive": 5, // Competitiveness
+        "declareWar": 6, // Likeliness to Declare War
+        "commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
+        "diplomacy": 6, // Diplobalance
+        "loyal": 7, // Loyalty
+        "expansion": 7, // Expansion
+    },
+    {
+        "name": "Ashurbanipal",
+		"preferredVictoryType": "Domination", // Cultural, Scientific, Domination, Diplomatic, Time
+        "production": 6, // Production Emphasis
+        "food": 5, // Growth
+        "gold": 5, // Gold Emphasis
+        "science": 7, // Science Emphasis
+        "culture": 5, // Culture Emphasis
+        "happiness": 5, // Happiness Emphasis
+        "faith": 4, // Religion Emphasis
+        "military": 7, // Offensive Unit Production
+        "aggressive": 5, // Competitiveness
+        "declareWar": 8, // Likeliness to Declare War
+        "commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
+        "diplomacy": 5, // Diplobalance
+        "loyal": 5, // Loyalty
+        "expansion": 6, // Expansion
+    }
+]
