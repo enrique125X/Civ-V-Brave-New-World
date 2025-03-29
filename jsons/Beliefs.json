@@ -95,6 +95,7 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
             // TODO: May build Universities, Public Schools, and Research Labs with Faith
+		]
     },
     {
         "name": "Religious Fervor",
