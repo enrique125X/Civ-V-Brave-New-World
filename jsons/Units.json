@@ -1,5 +1,15 @@
-// TODO: Add Caravan https://civilization.fandom.com/wiki/Caravan_(Civ5)
 [
+	{
+		"name": "Caravan",
+		"unitType": "Citizan",
+		"movement": 2,
+		"cost": 75,
+		"requiredTech": "Animal Husbandry",
+		"uniques": [
+			"Unavailable", // TODO: Add Caravan https://civilization.fandom.com/wiki/Caravan_(Civ5)
+			"Will not be displayed in Civilopedia"
+		]
+	},
 	{
 		"name": "Pathfinder",
 		"unitType": "Scout",
@@ -123,9 +133,15 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
-		"promotions": ["Shock I","Formation I","Heavy Charge"],
+		"uniques": [
+			"Can move after attacking","No defensive terrain bonus",
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+		],
+		"promotions": [
+			"Shock I",
+			"Formation I",
+			"Heavy Charge"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -140,7 +156,12 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Can move after attacking","[+1] Sight","Withdraws before melee combat <with [50]% chance>","Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"],
+		"uniques": [
+			"Can move after attacking",
+			"[+1] Sight",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"
+		]
 	},
 	{
 		"name": "Berber Cavalry",
@@ -154,8 +175,10 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"promotions": ["Homeland Guardian","Desert Warrior"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+		"uniques": [
+			"Can move after attacking","No defensive terrain bonus",
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -169,8 +192,10 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+		"uniques": [
+			"Can move after attacking","No defensive terrain bonus",
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -254,8 +279,13 @@
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Great Person - [Gold]","Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Unbuildable","Uncapturable"]
+		"uniques": [
+			"Great Person - [Gold]","Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Double movement in [Coast]",
+			"Unbuildable",
+			"Uncapturable"
+		]
 	},
 	{
 		"name": "Archaeologist",
@@ -281,7 +311,7 @@
             "Uncapturable",
             "Great Person - [War]",
 			"Can be earned through combat",
-			"[+15]% Strength bonus for [Water] units within [2] tiles" // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
+			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
 			"[2] Movement <after adopting [Navigation School]>"
 			// TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
         ],
