@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Landmark",
-		"terrainsCanBeBuiltOn": ["Antiquity Site"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": [
 			// TODO: +1 Culture Culture for each era of difference between the era of origin of the Antiquity Site and the current era ()

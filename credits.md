@@ -73,3 +73,18 @@
 - Flourish by Nugraha Wira Menggala from NounProject.com
 - Artist by my name is mud from NounProject.com
 - Exchange by Markus from NounProject.com
+- [Suitecase](https://thenounproject.com/icon/suitcase-3406281/) by Alice Design from NounProject.com
+- [Quill Pen](https://thenounproject.com/icon/quill-pen-6965217/) by elastic1studio from NounProject.com
+- [Color Palette](https://thenounproject.com/icon/color-palette-4655601/) by YANDI RS from NounProject.com
+- [Music Note](https://thenounproject.com/icon/music-note-4840954/) by hibernut from NounProject.com
+- [Dig](https://thenounproject.com/icon/dig-5410940/) by Bahrul Ulum from NounProject.com
+- [Gem](https://thenounproject.com/icon/gem-7307861/) by HDM
+- [Courthouse](https://thenounproject.com/icon/courthouse-7403358/) by Ariyanto Deni
+- [Airplane](https://thenounproject.com/icon/airplane-7727063/) by Yosua Bungaran
+- [Camel](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
+- [Keycard](https://thenounproject.com/icon/keycard-7423952/) by Arif Rahman
+- [Interpretive Sign](https://thenounproject.com/icon/interpretive-sign-68539/) by Luis Prado
+- [Space Station](https://thenounproject.com/icon/space-station-6618655/) by Kise1ki
+- [Theatre](https://thenounproject.com/icon/theatre-7449828/) by Icogenix
+- [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu
+- [Captain](https://thenounproject.com/icon/captain-7649814/) by Ponisih

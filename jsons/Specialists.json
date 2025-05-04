@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Musician",
+		"culture": 1,
+		"greatPersonPoints": {"Great Musician": 1},
+		"color": [58, 34, 213]
+	},
+	{
+		"name": "Writer",
+		"culture": 1,
+		"greatPersonPoints": {"Great Writer": 1},
+		"color": [206, 212, 35]
+	},
+	{
+		"name": "Admiral",
+		"greatPersonPoints": {"Great Admiral": 1},
+		"color": [223, 14, 14]
+	}
+]

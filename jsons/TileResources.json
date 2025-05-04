@@ -59,7 +59,10 @@
         "revealedBy": "Archaeology",
         "terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
         "improvement": "Archaeological Dig",
-        "uniques": ["Generated on every [150] tiles"]
+        "uniques": [
+			"Generated on every [150] tiles",
+			"Not shown on world screen"
+		]
     },
 	/*
 	// TODO: Add Hidden Antiquity site https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
@@ -84,5 +87,14 @@
         "name": "Great Work of Music",
         "resourceType": "Strategic",
         "uniques": ["Stockpiled"]
-    }
+    },
+	{
+		"name": "Tourism",
+		"resourceType": "Strategic",
+		"culture": 1,
+		"uniques": [
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	}
 ]
