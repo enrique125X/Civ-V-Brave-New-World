@@ -5,13 +5,13 @@
 ## Installation
 
 1. In Unciv, open the Mods menu
-2. Search for "Brave New World"
-3. Download "Civ V - Brave New World"
+2. Search for "Civ V Brave New World"
+3. Download **Civ V Brave New World**
 
 ## Usage
 
-1. Start a new game in Civ V - Gods & Kings
-2. Enable the Civ V - Brave New World mod
+1. Start a new game with Base Ruleset *Civ V - Gods & Kings*
+2. Enable the *Civ V Brave New World* extension mod
 
 ## Development
 
