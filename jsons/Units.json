@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Caravan",
-		"unitType": "Citizan",
+		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
