@@ -20,7 +20,15 @@
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
 		"uniques": [
-			// TODO: Receive a free Social Policy when you advance to the next era.
+			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
+			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
+			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
+			"Free Social Policy <upon entering the [Industrial era]> <hidden from users>",
+			"Free Social Policy <upon entering the [Modern era]> <hidden from users>",
+			"Free Social Policy <upon entering the [Atomic era]> <hidden from users>",
+			"Free Social Policy <upon entering the [Information era]> <hidden from users>",
+			"Free Social Policy <upon entering the [Future era]> <hidden from users>",
+			"Comment [Free Social Policy upon entering a new era]", // Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
 			"[-10]% Culture cost of adopting new Policies"
 		],
 		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
