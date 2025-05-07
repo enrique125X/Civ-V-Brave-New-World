@@ -73,6 +73,14 @@
 		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
 	},
 	{
+		"name": "Paradrop",
+		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory",]
+	},
+	{
+		"name": "Skyranger",
+		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory",]
+	},
+	{
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
