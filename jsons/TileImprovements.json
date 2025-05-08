@@ -21,7 +21,9 @@
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques": ["[+2 Culture] <after discovering [Acoustics]>"]
+		"uniques": [
+			"[+2 Culture] <after discovering [Acoustics]>"
+		]
 	},
 		{
 		"name": "Feitoria",

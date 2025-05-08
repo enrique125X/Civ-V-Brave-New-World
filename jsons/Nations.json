@@ -83,8 +83,7 @@
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
 		"uniques": [
-			// TODO: Tourism Tourism output is +100% during their Golden Age Golden Ages.
-			"[+50]% [Culture] [in all cities] <during a Golden Age>", // Replace this.
+			"Double quantity of [Tourism] produced <during a Golden Age>", // Tourism output is +100% during their Golden Ages.
 			"[Great Artist] is earned [50]% faster <during a Golden Age>",
 			"[Great Musician] is earned [50]% faster <during a Golden Age>",
 			"[Great Writer] is earned [50]% faster <during a Golden Age>"
@@ -197,7 +196,7 @@
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
 		"uniques": [
-			"[+1 Culture, +2 Gold] from each Trade Route"
+			"[+1 Culture, +2 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
 			// TODO: Trade Route owners receive +2 Gold Gold for each Trade Route sent to Morocco.
 		],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
