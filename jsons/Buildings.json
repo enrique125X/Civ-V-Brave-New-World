@@ -123,7 +123,7 @@
 			"Only available <when religion is enabled>",
 			"Provides [1] [Great Work of Art Slot]",
 			"Only available <after adopting [Cathedrals]>", // https://civilization.fandom.com/wiki/Religion_(Civ5)#Follower_Beliefs
-			// +2 Tourism with Sacred Sites Religious Belief
+			"Provides [2] [Tourism] <after adopting [Sacred Sites]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -139,8 +139,8 @@
 			"Can be purchased for [150] [Faith] [in all cities in which the majority religion is a major religion]",
 			"Only available <after adopting [Monasteries]>",
 			"Only available <when religion is enabled>",
-			"Destroyed when the city is captured"
-			// TODO: +2 Tourism with Sacred Sites Religious Belief
+			"Destroyed when the city is captured",
+			"Provides [2] [Tourism] <after adopting [Sacred Sites]>"
 		]
 	},
 	{
@@ -154,8 +154,8 @@
 			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
 			"Only available <after adopting [Mosques]>",
 			"Only available <when religion is enabled>",
+			"Provides [2] [Tourism] <after adopting [Sacred Sites]>",
 			"Destroyed when the city is captured"
-			// TODO: +2 Tourism with Sacred Sites Religious Belief
 		]
 	},
 	{
@@ -169,8 +169,8 @@
 			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
 			"Only available <when religion is enabled>",
 			"Only available <after adopting [Pagodas]>",
+			"Provides [2] [Tourism] <after adopting [Sacred Sites]>",
 			"Destroyed when the city is captured"
-			// TODO: +2 Tourism with Sacred Sites Religious Belief
 		]
 	},
 	{

@@ -39,7 +39,7 @@
         "name": "Ceremonial Burial",
         "type": "Founder",
         "uniques": [
-            // TODO: +1 Happiness Happiness for every 2 Cities following this religion
+            // TODO: +1 Happiness for every 2 Cities following this religion
             "[+1 Happiness] for each global city following this religion"
         ]
     },
@@ -69,7 +69,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: Influence Influence boosts from Gold Gold gifts to City-States are increased by 30%
+            "Gifts of Gold to City-States generate [+30]% more Influence"
         ]
     },
     {
@@ -77,7 +77,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: Missionaries' Spread Religion action erodes existing pressure from other religions
+			"Comment [Missionaries Spread Religion action erodes existing pressure from other religions]"
         ]
     },
     {
@@ -86,6 +86,7 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
             // TODO: Missionaries convert adjacent Barbarian units to this civilization
+			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it"
         ]
     },
     {
@@ -93,7 +94,9 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: May build Universities, Public Schools, and Research Labs with Faith
+			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]"
 		]
     },
     {
@@ -101,7 +104,11 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: Use Faith to purchase Industrial (and later) land units
+			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Information era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]"
         ]
     },
     {
@@ -109,7 +116,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: All buildings purchased with Faith provide 2 Tourism each
+			"Comment [+2 Tourism for every building purchased with Faith]"
         ]
     },
     {
@@ -117,7 +124,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: Use Faith to purchase any type of Great Person starting in Industrial Era
+			"May buy [Great Person] units with [Faith] [in all cities in which the majority religion is a major religion] <starting from the [Industrial era]>"
         ]
     },
     {
@@ -126,6 +133,7 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
             // TODO: Your spies exert religious pressure on the cities they occupy
+			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]"
         ]
     },
     {
@@ -134,6 +142,7 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
             // TODO: Inquisitors and Prophets reduce this religion's presence by half (instead of eliminating it)
+			"When spreading religion to a city, gain [2] times the amount of followers of other religions as [Faith]"
         ]
     }
 ]

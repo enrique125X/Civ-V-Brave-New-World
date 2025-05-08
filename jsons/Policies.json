@@ -114,21 +114,58 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    // TODO: If you founded a religion, gain a bonus Reformation belief.
-					"Free [Great Prophet] appears"
+					"Comment [Allows adopting Reformation Beliefs into your Religion]",
+					"Gain a free [Enhancer] belief <after founding a religion>" // If you founded a religion, gain a bonus Reformation belief.
                 ],
                 "requires": ["Religious Tolerance"],
                 "row": 3,
                 "column": 3,
 				"civilopediaText": [
-					{ "text": "Reformation refers to a great movement to reform a religious organization or belief system that is seen to have become corrupt or to have strayed from its guiding principles. The \"Protestant Reformation\" was a movement to reform the Roman Catholic Church. Begun in 1517 when Martin Luther published \"The Ninety-Five Theses\" listing the Church's transgressions as he saw them; the movement sparked some 130 years of horrible, bloody religious warfare across Europe and in the New World. As a result, Christianity was permanently fractured into various different organizations and civil authority gained ultimate primacy over religious life." }
+					{ "text": "Reformation refers to a great movement to reform a religious organization or belief system that is seen to have become corrupt or to have strayed from its guiding principles. The \"Protestant Reformation\" was a movement to reform the Roman Catholic Church. Begun in 1517 when Martin Luther published \"The Ninety-Five Theses\" listing the Church's transgressions as he saw them; the movement sparked some 130 years of horrible, bloody religious warfare across Europe and in the New World. As a result, Christianity was permanently fractured into various different organizations and civil authority gained ultimate primacy over religious life." },
+					{ "separator": true },
+					{
+						"text": "Charitable Missions",
+						"link": "Belief/Charitable Missions"
+					},
+					{
+						"text": "Evangelism",
+						"link": "Belief/Evangelism"
+					},
+					{
+						"text": "Heathen Conversion",
+						"link": "Belief/Heathen Conversion"
+					},
+					{
+						"text": "Jesuit Education",
+						"link": "Belief/Jesuit Education"
+					},
+					{
+						"text": "Religious Fervor",
+						"link": "Belief/Religious Fervor"
+					},
+					{
+						"text": "Sacred Sites",
+						"link": "Belief/Sacred Sites"
+					},
+					{
+						"text": "To the Glory of God",
+						"link": "Belief/To the Glory of God"
+					},
+					{
+						"text": "Underground Sect",
+						"link": "Belief/Underground Sect"
+					},
+					{
+						"text": "Unity of the Prophets",
+						"link": "Belief/Unity of the Prophets"
+					}
 				]
             },
             {
                 "name": "Religious Tolerance",
                 "uniques": [
 					// TODO: Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion
-					"Free [Great Prophet] appears"
+					"[-10]% Culture cost of adopting new Policies"
 				],
                 "requires": ["Organized Religion"],
                 "row": 2,

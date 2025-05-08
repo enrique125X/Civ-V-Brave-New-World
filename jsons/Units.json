@@ -164,6 +164,22 @@
 		]
 	},
 	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Removes other religions when spreading religion <after adopting [Evangelism]>", // Evangelism is new in BNW.
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>"
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
 		"name": "Berber Cavalry",
 		"replaces": "Cavalry",
 		"unitType": "Mounted",

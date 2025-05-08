@@ -41,7 +41,7 @@
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation",
