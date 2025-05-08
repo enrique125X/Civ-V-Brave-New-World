@@ -1,0 +1,287 @@
+#################### Lines from Beliefs ####################
+
+
+Earth Mother = Ibu Bumi
+
+God-King = Dewaraja
+
+Sun God = Dewa Matahari
+
+Tears of the Gods = Air Mata Dewa
+
+
+
+#################### Lines from Buildings ####################
+
+Airport = Bandar Udara
+
+Caravansary = Karavanserai
+
+Hotel = Hotel
+
+Zoo = Kebun Binatang
+
+Cloves = Cengkih
+
+Nutmeg = Pala
+
+Pepper = Lada
+
+Royal Library = Perpustakaan Kerajaan
+
+Ducal Stable = Kandang Kuda Kadipaten
+
+Ikanda = Ikanda
+
+Candi = Candi
+
+Hanse = Hansa
+
+Broadway = Broadway
+
+Globe Theatre = Globe Theatre
+
+Red Fort = Benteng Merah
+
+Borobudur = Borobudur
+
+Artists' Guild = Gilda Seniman
+
+Musicians' Guild = Gilda Pemusik
+
+Writers' Guild = Gilda Penulis
+
+National Visitor Center = Pusat Pengunjung Nasional
+
+East India Company = Perusahaan Hindia Timur
+
+Uffizi = Uffizi
+
+Prora = Prora
+
+Parthenon = Parthenon
+
+International Space Station = Stasiun Antariksa Internasional
+
+
+
+#################### Lines from Nations ####################
+
+Poland = Polandia
+Casimir III = Kazimierz III
+Polish = Bangsa Polandia
+Solidarity = Solidaritas
+
+Assyria = Asyur
+Ashurbanipal = Asyurbanipal
+Assyrian = Bangsa Asyur
+Treasures of Nineveh = Harta Karun Niniwe
+
+Brazil = Brasil
+Pedro II = Pedro II
+Brazilian = Bangsa Brasil
+Carnival = Karnaval
+
+Zulu = Zulu
+Shaka = Shaka
+Iklwa = Iklwa
+
+Portugal = Portugal
+Maria I = Maria I
+Portuguese = Bangsa Portugis
+Mare Clausum = Mare Clausum
+
+Indonesia = Indonesia
+Gajah Mada = Gajah Mada
+Indonesian = Bangsa Indonesia
+Spice Islanders = Penduduk Kepulauan Rempah-rempah
+After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources = Setelah meneliti Astronomi, 3 kota pesisir menyediakan 2 duplikat Sumber Daya Mewah unik
+
+Morocco = Maroko
+Ahmad al-Mansur = Ahmad al-Mansur
+Moroccan = Bangsa Maroko
+Gateway to Africa = Gerbang ke Afrika
+
+Venice = Venesia
+Enrico Dandolo = Enrico Dandolo
+Venetian = Bangsa Venesia
+Serenissima = Serenissima
+
+Shoshone = Shoshoni
+Pocatello = Pocatello
+
+Geneva = Jenewa
+Zurich = Zürich
+Samarkand = Samarkand
+Byblos = Byblos
+Prague = Praha
+
+
+#################### Lines from Policies ####################
+
+Consulates = Konsulat
+
+Wagon Trains = Kereta Wagon
+Mercenary Army = Tentara Bayaran
+Entrapreneurship = Kewirausahaan
+
+Exploration = Penjelajahan
+Maritime Infrastructure = Infrastruktur Maritim
+Navigation School = Sekolah Navigasi
+Treasure Fleets = Armada Khazanah
+Exploration Complete = Penjelajahan Lengkap
+
+Aesthetics = Estetika
+Cultural Centers = Pusat Kebudayaan
+Fine Arts = Seni Murni
+Flourishing of the Arts = Berkembangnya Seni
+Artistic Genius = Jenius Artistik
+Cultural Exchange = Pertukaran Budaya
+Aesthetics Complete = Estetika Lengkap
+
+Universal Healthcare = Pelayanan Kesehatan Semesta
+Capitalism = Kapitalisme
+Volunteer Army = Tentara Sukarelawan
+Urbanization = Urbanisasi
+
+Elite Forces = Pasukan Elite
+Fortified Borders = Perbatasan yang Dibentengi
+
+Young Pioneers = Pionir Muda
+Patriotic War = Perang Patriotik
+Workers' Faculties = Fakultas Pekerja
+Academy of Sciences = Akademi Ilmu Pengetahuan
+Five-Year Plan = Rencana Lima Tahun
+
+
+
+#################### Lines from Religions ####################
+
+Eastern Orthodoxy = Ortodoksi Timur
+Protestantism = Protestanisme
+
+
+
+#################### Lines from Specialists ####################
+
+Musician = Pemusik
+
+Writer = Penulis
+
+Admiral = Laksamana
+
+
+
+#################### Lines from Terrains ####################
+
+King Solomon's Mines = Tambang-tambang Raja Salomo
+
+Lake Victoria = Danau Victoria
+
+Mount Kilimanjaro = Gunung Kilimanjaro
+
+
+
+#################### Lines from TileImprovements ####################
+
+Chateau = Chateau
+
+Brazilwood Camp = Perkemahan Kayu Brasil
+
+Feitoria = Feitoria
+
+Kasbah = Kasbah
+
+
+
+#################### Lines from TileResources ####################
+
+Bison = Bison
+
+Cocoa = Biji Kakao
+
+Nutmeg = Pala
+
+Cloves = Cengkih
+
+Pepper = Lada
+
+
+
+#################### Lines from UnitPromotions ####################
+
+Heavy Charge = Serbuan Berat
+
+Buffalo Horns = Tanduk Kerbau
+
+Buffalo Chest = Dada Kerbau
+
+Buffalo Loins = Pinggang Kerbau
+
+Mystic Blade = Belati Mistik
+
+Invulnerability = Kekebalan
+
+Sneak Attack = Serangan Mengendap-endap
+
+Restlessness = Kegelisahan
+
+Heroism = Heroisme
+
+Ambition = Ambisi
+
+Homeland Guardian = Penjaga Tanah Air
+
+Desert Warrior = Prajurit Gurun
+
+Skyranger = Jagawana Langit
+
+Altitude Training = Latihan Ketinggian
+
+
+
+#################### Lines from Units ####################
+
+Caravan = Karavan
+
+Pathfinder = Pemandu
+
+Hand-Axe = Kapak Genggam
+
+Siege Tower = Menara Kepung
+
+Kris Swordsman = Prajurit Berbelati Keris
+
+Great Galleass = Galias Besar
+
+Landsknecht = Landsknecht
+
+Impi = Impi
+
+Winged Hussar = Hussar Bersayap
+
+Nau = Nau
+
+Berber Cavalry = Kavaleri Berber
+
+Comanche Rider = Penunggang Comanche
+
+Foreign Legion = Legiun Asing
+
+Machine Gun = Senapan Mesin
+
+Bazooka = Bazoka
+
+Pracinha = Pracinha
+
+Future Soldier = Prajurit Masa Depan
+
+Merchant of Venice = Pedagang Venesia
+
+Archaeologist = Arkeolog
+
+Great Admiral = Laksamana Hebat
+
+Great Writer = Penulis Hebat
+
+Great Musician = Pemusik Hebat
