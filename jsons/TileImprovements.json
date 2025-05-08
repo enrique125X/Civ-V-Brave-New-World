@@ -95,11 +95,11 @@
             "Excluded from map editor"
         ],
 		"civilopediaText": [
-			{ "text": "Archaeological Digs, performed by Archaeologists, on Antiquity Sites, produce an Artefact." },
+			{ "text": "Archaeological Digs, performed by Archaeologists, on Antiquity Sites, produce an Artifact." },
 			{ "separator": true },
 			{
-				"text": "Artefact",
-				"link": "Resource/Artefact"
+				"text": "Artifact",
+				"link": "Resource/Artifact"
 			},
 			{
 				"text": "Antiquity Site",

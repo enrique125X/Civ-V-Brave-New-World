@@ -1,13 +1,13 @@
 [
 	{
 		"name": "Archaeological Dig",
-		"text": "Your Archaeological Dig has uncovered an Ancient Artefact!",
+		"text": "Your Archaeological Dig has uncovered an Ancient Artifact!",
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Dig up the Artefact",
+				"text": "Dig up the Artifact",
 				"uniques": [
-					"Instantly provides [1] [Artefact]",
+					"Instantly provides [1] [Artifact]",
 					"Comment [Be sure to slot it in a Great Work of Art Slot]"
 				]
 			}

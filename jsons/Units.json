@@ -302,11 +302,11 @@
 			"Only available <in cities with a [University]>"
 		],
 		"civilopediaText": [
-			{ "text": "Archaeologists can either dig up Antiquity Sites for Artefacts, or turn them into a Landmark." },
+			{ "text": "Archaeologists can either dig up Antiquity Sites for Artifacts, or turn them into a Landmark." },
 			{ "separator": true },
 			{
-				"text": "Artefact",
-				"link": "Resource/Artefact"
+				"text": "Artifact",
+				"link": "Resource/Artifact"
 			},
 			{
 				"text": "Antiquity Site",

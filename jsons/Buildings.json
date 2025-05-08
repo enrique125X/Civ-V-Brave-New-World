@@ -1029,124 +1029,124 @@
 		"requiredTech": "Great Work"
 	},
 
-	// Artefact
+	// Artifact
 	{
-		"name": "Artefact 1",
+		"name": "Artifact 1",
 		"requiredResource": "Great Work of Art Slot",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]", // Is 1 Tourism a good workaround for Building complete Theming Bonus?
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Artefact 2",
+		"name": "Artifact 2",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Artefact 1",
+		"requiredBuilding": "Artifact 1",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Artefact 3",
+		"name": "Artifact 3",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Artefact 2",
+		"requiredBuilding": "Artifact 2",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Artefact 4",
+		"name": "Artifact 4",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Artefact 3",
+		"requiredBuilding": "Artifact 3",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Artefact 5",
+		"name": "Artifact 5",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Artefact 4",
+		"requiredBuilding": "Artifact 4",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Artefact 6",
+		"name": "Artifact 6",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Artefact 5",
+		"requiredBuilding": "Artifact 5",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Artefact 7",
+		"name": "Artifact 7",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Artefact 6",
+		"requiredBuilding": "Artifact 6",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Artefact 8",
+		"name": "Artifact 8",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Artefact 7",
+		"requiredBuilding": "Artifact 7",
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Instantly consumes [1] [Artefact]",
+			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
-			"Only available <with [Artefact]> <hidden from users>"
+			"Only available <with [Artifact]> <hidden from users>"
 		]
 	}
 ]
