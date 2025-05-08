@@ -49,7 +49,6 @@
 	{
 		"name": "Theatre", // Named "Zoo" in Brave New World.
 		// https://civilization.fandom.com/wiki/Zoo_(Civ5)
-		"cost": 200,
 		"happiness": 2,
 		"requiredBuilding": "Colosseum",
 		"maintenance": 2,
@@ -114,17 +113,64 @@
 	},
 	{
 		"name": "Cathedral",
-		"cost": 200,
 		"faith": 1,
 		"culture": 1,
 		"happiness": 1,
 		"uniques": [
 			"Unbuildable",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Unsellable",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
 			"Only available <when religion is enabled>",
 			"Provides [1] [Great Work of Art Slot]",
-			"Only available <after adopting [Cathedrals]>" // https://civilization.fandom.com/wiki/Religion_(Civ5)#Follower_Beliefs
-			// +2 Tourism Tourism with Sacred Sites Religious Belief
+			"Only available <after adopting [Cathedrals]>", // https://civilization.fandom.com/wiki/Religion_(Civ5)#Follower_Beliefs
+			// +2 Tourism with Sacred Sites Religious Belief
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Monastery",
+		"culture": 2,
+		"faith": 2,
+		"uniques": [
+			"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
+			"Unbuildable",
+			"Unsellable",
+			"Can be purchased for [150] [Faith] [in all cities in which the majority religion is a major religion]",
+			"Only available <after adopting [Monasteries]>",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+			// TODO: +2 Tourism with Sacred Sites Religious Belief
+		]
+	},
+	{
+		"name": "Mosque",
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
+			"Only available <after adopting [Mosques]>",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+			// TODO: +2 Tourism with Sacred Sites Religious Belief
+		]
+	},
+	{
+		"name": "Pagoda",
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
+			"Only available <when religion is enabled>",
+			"Only available <after adopting [Pagodas]>",
+			"Destroyed when the city is captured"
+			// TODO: +2 Tourism with Sacred Sites Religious Belief
 		]
 	},
 	{
@@ -151,7 +197,11 @@
         "cost": 75,
         "hurryCostModifier": 25,
         "maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] XP [in this city]","All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"],
+		"uniques": [
+			"Destroyed when the city is captured",
+			"New [Military] units start with [15] XP [in this city]",
+			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"
+		],
         "requiredTech": "Bronze Working"
     },
 	{
@@ -174,11 +224,12 @@
         "replaces": "Bank",
         "uniqueTo": "Germany",
         "gold": 2,
+        "percentStatBonus": {"gold": 25},
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
         "uniques": [
-			"[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]"
+			"[+5]% [Production] [in this city]" // TODO: +5% Production per City-State trade route in the empire
+			// TODO: +1 Gold per incoming trade route, +1 for the foreign owner
 		],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
