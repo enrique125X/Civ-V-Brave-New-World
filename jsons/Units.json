@@ -296,24 +296,37 @@
 		"requiredTech": "Archaeology",
 		"movement": 4,
 		"uniques": [
-			// TODO: "Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
+			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			"Cannot be purchased",
 			"Only available <in cities with a [University]>"
+		],
+		"civilopediaText": [
+			{ "text": "Archaeologists can either dig up Antiquity Sites for Artefacts, or turn them into a Landmark." },
+			{ "separator": true },
+			{
+				"text": "Artefact",
+				"link": "Resource/Artefact"
+			},
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			}
 		]
 	},
 
-    /* Great people */
+    // Great People
     {
         "name": "Great Admiral",
 		// TODO: https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
         "unitType": "Civilian Water",
         "uniques": [
+			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
             "Is part of Great Person group [War]",
+            "Great Person - [War]",
             "Unbuildable",
             "Uncapturable",
-            "Great Person - [War]",
 			"Can be earned through combat",
-			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
 			"[2] Movement <after adopting [Navigation School]>"
 			// TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
         ],
@@ -323,26 +336,38 @@
         "name": "Great Artist",
         "unitType": "Civilian",
         "uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Is part of Great Person group [Artist]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
         ],
+		"civilopediaText": [
+			{
+				"text": "Generated with Artists' Guild",
+				"link": "Wonder/Artists' Guild"
+			}
+		],
         "movement": 4
     },
     {
         "name": "Great Writer",
         "unitType": "Civilian",
         "uniques": [
-            "Can generate a large amount of culture",
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
+            "Can generate a large amount of culture", // Write Political Treatise
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
         ],
+		"civilopediaText": [
+			{
+				"text": "Generated with Writers' Guild",
+				"link": "Wonder/Writers' Guild"
+			}
+		],
         "movement": 4
     },
     {
@@ -350,11 +375,18 @@
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
+            "Instantly provides [10] [Tourism] <by consuming this unit>", // Perform Concert Tour
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
         ],
+		"civilopediaText": [
+			{
+				"text": "Generated with Musicians' Guild",
+				"link": "Wonder/Musicians' Guild"
+			}
+		],
         "movement": 4
     }
 ]

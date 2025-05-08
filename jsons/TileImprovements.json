@@ -44,32 +44,65 @@
 		"techRequired": "Chivalry",
 		"uniques": ["Gives a defensive bonus of [50]%"]
 	},
+
+	// Antiquity Site Improvements
+	// https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 6,
+		"culture": 1,
 		"uniques": [
-			// TODO: +1 Culture Culture for each era of difference between the era of origin of the Antiquity Site and the current era ()
-			"Great Improvement",
-			"Removes removable features when built",
-            "Will not be replaced by automated units",
+			// +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era.
+			// "[+1 Culture] <starting from the [Classical era]>", // No Classical era because it's the difference between eras, not starting at.
+			"[+1 Culture] <starting from the [Medieval era]>",
+			"[+1 Culture] <starting from the [Renaissance era]>",
+			"[+1 Culture] <starting from the [Industrial era]>",
+			"[+1 Culture] <starting from the [Modern era]>",
+			"[+1 Culture] <starting from the [Atomic era]>",
+			"[+1 Culture] <starting from the [Information era]>",
+			// "[+1 Culture] <starting from the [Future era]>", // Future era doesn't exist in BNW.
+            "Can only be built to improve a resource <hidden from users>",
+			"Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+            "Will not be replaced by automated units <hidden from users>",
+			"Irremovable <hidden from users>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"civilopediaText": [
+			{ "text": "Landmarks are built from Antiquity Sites by Archaeologists." },
+			{ "separator": true },
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			}
 		]
 	},
     {
         "name": "Archaeological Dig",
-        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
-        "culture": 6,
-        "gold": 2,
-        "science": 2,
+        "terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1, // Used to allow automation.
         "uniques": [
-            "Great Improvement",
+			"Triggers a [Archaeological Dig] event",
+            "Great Improvement <hidden from users>",
             "Can be built outside your borders",
-            "Can only be built to improve a resource",
-            "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+20 Gold]",
-			"Will not be replaced by automated units",
+            "Can only be built to improve a resource <hidden from users>",
+            "Removes removable features when built <hidden from users>",
+            "Unpillagable",
+			"Irremovable <hidden from users>",
+			"Will not be replaced by automated units <hidden from users>",
             "Excluded from map editor"
-        ]
-    },
+        ],
+		"civilopediaText": [
+			{ "text": "Archaeological Digs, performed by Archaeologists, on Antiquity Sites, produce an Artefact." },
+			{ "separator": true },
+			{
+				"text": "Artefact",
+				"link": "Resource/Artefact"
+			},
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			}
+		]
+    }
 ]

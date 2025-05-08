@@ -1,14 +1,27 @@
 [
 	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"Provides [1] [Great Work of Art Slot]"
+		]
+	},
+	{
 		"name": "Airport",
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
 			// TODO: Allows airlifting to other cities with Airports
  			// TODO: Increases air unit capacity of the city from 6 to 10.
-			// 50% from Culture Culture of wonders and improvements in the city added to its Tourism Tourism output.
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>"
-			// TODO: +50% Tourism output of Great Works in the city.
+			 "Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			 "Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Radar"
 	},
@@ -28,8 +41,8 @@
 		"cost": 300,
 		"maintenance": 0,
 		"uniques": [
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>"
-			// TODO: Great Work Tourism in the city +50%
+			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Refrigeration"
 	},
@@ -47,7 +60,15 @@
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Pepper]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
+        "uniques": [
+			"Only available <in cities without a [Palace]>",
+			"Only available <in cities without a [Nutmeg]>",
+			"Only available <in cities without a [Pepper]>",
+			"Limited to [1] per Civilization",
+			"Will not be displayed in Civilopedia",
+			"Provides [2] [Cloves]",
+			"Must be next to [Coast]"
+		],
 		"requiredTech": "Astronomy"
     },
     {
@@ -72,10 +93,41 @@
 		"uniqueTo": "Assyria",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] XP [in this city]"],
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"New [Military] units start with [10] XP [in this city]",
+			"Provides [1] [Great Work of Writing Slot]"
+		],
 		"requiredTech": "Writing"
 	},
-	   {
+	{
+		"name": "Amphitheater",
+		"culture": 1,
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Great Work of Writing Slot]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Cathedral",
+		"cost": 200,
+		"faith": 1,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"Unbuildable",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Only available <when religion is enabled>",
+			"Provides [1] [Great Work of Art Slot]",
+			"Only available <after adopting [Cathedrals]>" // https://civilization.fandom.com/wiki/Religion_(Civ5)#Follower_Beliefs
+			// +2 Tourism Tourism with Sacred Sites Religious Belief
+		]
+	},
+	{
         "name": "Ducal Stable",
         "replaces": "Stable",
         "uniqueTo": "Poland",
@@ -107,8 +159,12 @@
         "replaces": "Garden",
         "uniqueTo": "Indonesia",
         "cost": 120,
-        "faith": 3,
-        "uniques": ["[+25]% Great Person generation [in this city]"],
+        "faith": 3, // TODO: +2 Faith
+        "uniques": [
+			"[+25]% Great Person generation [in this city]"
+			// TODO: +2 Faith for each World Religion that has at least 1 follower in the city.
+			// TODO: +2 Happiness with Peace Gardens Religious Belief
+		],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -120,11 +176,14 @@
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
-        "uniques": ["[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]"],
+        "uniques": [
+			"[+5]% [Production] [in this city]",
+            "[+25]% [Gold] [in this city]"
+		],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
     },
+
 	// Wonders
 	{
 		"name": "Hanging Gardens",
@@ -169,10 +228,23 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Musician] units appear"
-			// TODO: Contains 3 slots for Great Works of Music
+			"[1] free [Great Musician] units appear",
+			"Provides [3] [Great Work of Music Slot]"
 		],
 		"requiredTech": "Radio"
+	},
+	{
+		"name": "Sydney Opera House",
+		"isWonder": true,
+		"cost": 1250,
+		"percentStatBonus": {"culture": 50},
+		"uniques": [
+			"Free Social Policy",
+			"Provides [2] [Great Work of Music Slot]",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Ecology",
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
 	},
 	{
 		"name": "Globe Theatre",
@@ -180,10 +252,11 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Writer] units appear"
-			// TODO: Contains 2 slots for Great Works of Writing
+			"[1] free [Great Writer] units appear",
+			"Provides [2] [Great Work of Writing Slot]"
 		],
-		"requiredTech": "Printing Press"
+		"requiredTech": "Printing Press",
+		"quote": "'Totus mundus agit histrionem' - Inscription above main entrance to the Globe Theatre"
 	},
 	{
 		"name": "Great Mosque of Djenne",
@@ -228,11 +301,12 @@
 	},
 	{
 		"name": "The Louvre",
-		"culture": 1,
-		"happiness": 4,
+		"cost": 750,
+		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[2] free [Great Artist] units appear",
+			"[1] free [Great Artist] units appear",
+			"Provides [4] [Great Work of Art Slot]",
 			"Only available <after adopting [Exploration]>"
 		],
 		"requiredTech": "Archaeology",
@@ -269,14 +343,14 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": [
-			"[+50]% Production when constructing [Armored] units [in all cities]",
 			"Free Social Policy",
+			"[+50]% Production when constructing [Armored] units [in all cities]",
 			"Only available <after adopting [Order]>"
 		],
 		"requiredTech": "Railroads",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
 	},
-		{
+	{
 		"name": "Red Fort",
 		"culture": 1,
 		"cost": 625,
@@ -289,11 +363,14 @@
 		"requiredTech": "Metallurgy",
 		"quote": "'When we build, let us think that we build forever.' – John Ruskin"
 	},
-		{
+	{
 		"name": "Borobudur",
 		"faith": 5,
 		"isWonder": true,
-		"uniques": [ "Can only be built <in [in holy cities] cities>","[3] free [Missionary] units appear"],
+		"uniques": [
+			"[3] free [Missionary] units appear",
+			"Can only be built <in [in holy cities] cities>"
+		],
 		"requiredTech": "Theology",
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
 	},
@@ -314,7 +391,7 @@
         "cost": 200,
 		"maintenance": 1,
         "isNationalWonder": true,
-		"greatPersonPoints": {"Great Musician": 2},
+		"greatPersonPoints": {"Great Musician": 3},
         "specialistSlots": {"Musician": 2},
         "requiredTech": "Acoustics",
 		"uniques": [
@@ -340,9 +417,9 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
+			"Provides [1] [Tourism] <for every [1] [Culture]> <in this city>", // +100% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
             "Cost increases by [30] per owned city",
-			// 100% of the Culture Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateaux) is added to the Tourism Tourism output of the city.
-			"Provides [1] [Tourism] <for every [1] [Culture]> <in this city>",
 			"Only available <if [Hotel] is constructed in all [Your] cities>"
 			// TODO: Tourism output from Great Works +100%.
 			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
@@ -355,7 +432,7 @@
         "isNationalWonder": true,
 		"requiredBuilding": "Market",
         "uniques": [
-			// Trade Route Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold Gold for the city owner and the Trade Route Trade Route owner gains an additional 2 Gold Gold for the Trade Route Trade Route.
+			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold Gold for the city owner and the Trade Route Trade Route owner gains an additional 2 Gold Gold for the Trade Route Trade Route.
 			"[+1 Gold] from each Trade Route",
             "Cost increases by [30] per owned city"
 			// TODO: +1 Happiness Happiness with Universal Healthcare tenet (any Ideology)
@@ -370,8 +447,8 @@
         "isWonder": true,
         "uniques": [
 			"Free [Great Artist] appears",
+			"Provides [3] [Great Work of Art Slot]",
 			"Only available <after adopting [Aesthetics]>"
-			// TODO: Contains 3 slots for Great Works of Art which provide +3 theming bonus, if you fill the slots with Great Works of Art from the same civilization and the same era.
 		],
         "requiredTech": "Architecture",
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
@@ -382,10 +459,10 @@
         "happiness": 2,
         "isWonder": true,
         "uniques": [
-			"[+1 Happiness] per [2] social policies adopted",
 			"Free Social Policy",
-			"Only available <after adopting [Autocracy]>",
-			"Must be next to [Coast]"
+			"[+1 Happiness] per [2] social policies adopted",
+			"Must be next to [Coast]",
+			"Only available <after adopting [Autocracy]>"
 		],
         "requiredTech": "Flight",
         "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
@@ -396,10 +473,24 @@
         "culture": 4,
         "isWonder": true,
 		"uniques": [
-			// TODO: Contains a prebuilt Great Work of Art in the Great Work Slot.
+			"Provides [1] [Great Work of Art Slot]",
+			"Instantly provides [1] [Great Work of Art]"
 		],
-        "requiredTech": "Drama and Poetry",
+        "requiredTech": "Drama and Poetry"
     },
+	{
+		"name": "Sistine Chapel",
+		"cost": 500,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			"[+25]% [Culture] [in all cities]",
+			"Provides [2] [Great Work of Art Slot]"
+		],
+		"requiredTech": "Acoustics",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
 	{
         "name": "International Space Station",
 		"cost": 1600,
@@ -430,11 +521,109 @@
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
 		"uniques": [
-			// TODO: Contains 2 slots for Great Works of Art
-			"Destroyed when the city is captured",
-			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations>"
+			"Provides [2] [Great Work of Art Slot]",
+			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations> <hidden from users>",
+			"Destroyed when the city is captured"
 		]
     },
+	{
+        "name": "Opera House",
+		"cost": 200,
+		"maintenance": 1,
+        "culture": 1,
+        "requiredTech": "Acoustics",
+		"requiredBuilding": "Amphitheater",
+		"uniques": [
+			"Provides [1] [Great Work of Music Slot]",
+			"Destroyed when the city is captured"
+		]
+    },
+	{
+		"name": "Ceilidh Hall",
+		"replaces": "Opera House",
+		"uniqueTo": "Celts",
+		"culture": 1,
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 1,
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"Provides [1] [Great Work of Music Slot]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Broadcast Tower",
+		"cost": 500,
+		"culture": 1,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+			"Provides [1] [Great Work of Music Slot]",
+			"Destroyed when the city is captured"
+			// TODO: +34% Tourism Tourism in this city with Media Culture Freedom tenet
+		]
+	},
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]",
+			"Provides [1] [Great Work of Writing Slot]",
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides [1] [Great Work of Writing Slot]",
+			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"
+			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
+		],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "The Great Library",
+		"cost": 185,
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": [
+			"Free Technology",
+			"Gain a free [Library] [in this city]",
+			"Provides [2] [Great Work of Writing Slot]"
+		],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{
+		"name": "Oxford University",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Free Technology",
+			"Provides [2] [Great Work of Writing Slot]",
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
+		],
+		"requiredTech": "Education"
+	},
 	{
 		"name": "Hermitage",
 		"cost": 125,
@@ -442,10 +631,522 @@
 		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": [
+			"Provides [3] [Great Work of Art Slot]",
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Provides [5] [Tourism] <after adopting [Religious Art]>"
+			"Provides [5] [Tourism] <after adopting [Religious Art]>",
+			"[+5 Culture] <after adopting [Religious Art]>"
+			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
+			//"[+1 Happiness] <after adopting [Universal Healthcare]>"
 		],
 		"requiredTech": "Architecture"
+	},
+
+	// Great Work of Art
+	{
+		"name": "Great Work of Art 1",
+		"requiredResource": "Great Work of Art Slot",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Art 2",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 1",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Art 3",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 2",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Art 4",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Art 5",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Art 6",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Art 7",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Art 8",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+
+	// Great Work of Music
+	{
+		"name": "Great Work of Music 1",
+		"requiredResource": "Great Work of Music Slot",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Music 2",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 1",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Music 3",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 2",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Music 4",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Music 5",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Music 6",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Music 7",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Music 8",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+
+	// Great Work of Writing
+	{
+		"name": "Great Work of Writing 1",
+		"requiredResource": "Great Work of Writing Slot",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Writing 2",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 1",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Writing 3",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 2",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Writing 4",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Writing 5",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Writing 6",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Writing 7",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+	{
+		"name": "Great Work of Writing 8",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		],
+		"requiredTech": "Great Work"
+	},
+
+	// Artefact
+	{
+		"name": "Artefact 1",
+		"requiredResource": "Great Work of Art Slot",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]", // Is 1 Tourism a good workaround for Building complete Theming Bonus?
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 2",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 1",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 3",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 2",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 4",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 5",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 6",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 7",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 8",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
 	}
 ]
