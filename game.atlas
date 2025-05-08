@@ -636,154 +636,154 @@ ResourceIcons/Cocoa
   index: -1
 ResourceIcons/Great Work of Music
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 1
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 2
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 3
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 4
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 5
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 6
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 7
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 8
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Musicians' Guild
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Music Slot
   rotate: false
-  xy: 760, 170
+  xy: 868, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Writing
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 1
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 2
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 3
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 4
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 5
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 6
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 7
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 8
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Writers' Guild
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Writing Slot
   rotate: false
-  xy: 868, 278
+  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -791,6 +791,27 @@ ResourceIcons/Great Work of Writing Slot
 ResourceIcons/Tourism
   rotate: false
   xy: 1732, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Great Work
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Religious Tolerance
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Writer
+  rotate: false
+  xy: 760, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -924,20 +945,6 @@ UnitIcons/Great Galleass
 UnitIcons/Great Musician
   rotate: false
   xy: 652, 62
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Writer
-  rotate: false
-  xy: 976, 386
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Religious Tolerance
-  rotate: false
-  xy: 976, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
