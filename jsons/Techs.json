@@ -1,6 +1,6 @@
 [
 	{
-		"columnNumber": 1,
+		"columnNumber": 0,
 		"era": "Ancient era",
 		"techCost": 0,
 		"buildingCost": 0,
@@ -9,8 +9,7 @@
 			{
 				// The Great Work technology allows for [[Great Work] Buildings] filter.
 				"name": "Great Work",
-				"row": 1,
-				"prerequisites": ["Agriculture"],
+				"row": 10,
 				"uniques": ["Starting tech"],
 				"civilopediaText": [
 					{ "text": "Provides the ability to slot Great Works." },
@@ -28,6 +27,47 @@
 						"link": "Resource/Great Work of Writing"
 					}
 				]
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Information era",
+		"techCost": 8800,
+		"techs": [
+			{
+				"name": "The Internet",
+				"row": 5,
+				"prerequisites": ["Telecommunications"],
+				"uniques": [
+					"Double quantity of [Tourism] produced" // Double Tourism output of all your cities
+					// TODO: Double Tourism effect negated in a civilization with the Great Firewall.
+				],
+				"quote": "'The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.' - Eric Schmidt"
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": [
+					"Globalization",
+					"Particle Physics",
+					"Nuclear Fusion",
+					"Nanotechnology",
+					"Stealth",
+					"The Internet" // New prerequisite in BNW.
+				],
+				"uniques": ["Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+                "civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}
 		]
 	}

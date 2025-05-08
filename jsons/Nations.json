@@ -321,6 +321,7 @@
 		"uniqueText": "Museums double Tourism in capital",
 		"uniques": [
 			// Double Museum Tourism production in capital @see Museum
+			// TODO: World Wonder theming bonuses are doubled in their Capital.
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",

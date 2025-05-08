@@ -265,7 +265,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Future Soldier",
+		"name": "Future Soldier", // XCOM Squad in Civ5 https://civilization.fandom.com/wiki/XCOM_Squad_(Civ5)
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 100,
