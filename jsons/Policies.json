@@ -28,6 +28,7 @@
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [4] cities for free"
                 ],
+                "requires": ["Oligarchy"],
                 "row": 1,
                 "column": 3
             },
@@ -54,7 +55,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+1 Gold, -1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -81,8 +82,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "[+50]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+50]% Production when constructing [Temple] buildings [in all cities]",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
@@ -97,7 +98,10 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
+                "uniques": [
+					// TODO: Make this not applicable to Great People
+					"[Faith] cost of purchasing items in cities [-20]%"
+				],
                 "row": 1,
                 "column": 5
             },
@@ -244,7 +248,7 @@
                 "name": "Merchant Confederacy", // Was Educated Elite
                 "requires": ["Scholasticism", "Consulates"],
                 "uniques": [
-                    // TODO: +2 Gold Gold for trade routes with City-States
+                    // TODO: +2 Gold for trade routes with City-States
 					"[+2 Gold] from each Trade Route <in [in City-State cities] cities>"
                 ],
                 "row": 3,
@@ -273,7 +277,7 @@
             {
                 "name": "Wagon Trains",
                 "uniques": [
-					// TODO: +2 Gold Gold from all your Land Trade Routes (with foreign nations).
+					// TODO: +2 Gold from all your Land Trade Routes (with foreign nations).
 					"[-50]% maintenance on road & railroads"
 				],
                 "row": 1,
@@ -323,7 +327,6 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-                    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -354,9 +357,6 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
                     "[-50]% weight to this choice for AI decisions",
 					"[Great Scientist] is earned [25]% faster"
                 ],
@@ -375,7 +375,9 @@
             },
             {
                 "name": "Sovereignty",
-                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "uniques": [
+					"[+1 Gold] from all [Science] buildings"
+				],
                 "requires": ["Secularism"],
                 "row": 2,
                 "column": 2
@@ -595,7 +597,11 @@
 	{
 		"name": "Aesthetics",
 		"era": "Classical era",
-		"uniques": ["[Great Artist] is earned [33]% faster"],
+		"uniques": [
+			"[Great Artist] is earned [25]% faster",
+			"[Great Musician] is earned [25]% faster",
+			"[Great Writer] is earned [25]% faster"
+		],
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 60,
@@ -606,23 +612,30 @@
 		"policies": [
 			{
 				"name": "Cultural Centers",
-				"uniques": ["[+100]% Production when constructing [Monument] buildings [in your cities]",
-					"[+100]% Production when constructing [Amphitheater] buildings [in your cities]",
-					"[+100]% Production when constructing [Opera House] buildings [in your cities]",
-					"[+100]% Production when constructing [Museum] buildings [in your cities]",
-					"[+100]% Production when constructing [Broadcast Tower] buildings [in your cities]"],
+				"uniques": [
+					"[+50]% Production when constructing [Monument] buildings [in your cities]",
+					"[+50]% Production when constructing [Amphitheater] buildings [in your cities]",
+					"[+50]% Production when constructing [Opera House] buildings [in your cities]",
+					"[+50]% Production when constructing [Museum] buildings [in your cities]",
+					"[+50]% Production when constructing [Broadcast Tower] buildings [in your cities]"
+				],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Fine Arts",
-				"uniques": ["[50]% of excess happiness converted to [Culture]"],
+				"uniques": [
+					"[50]% of excess happiness converted to [Culture]"
+				],
 				"row": 1,
 				"column": 4
 			},
 						{
 				"name": "Flourishing of the Arts",
-				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
+				"uniques": [
+					"[+33]% [Culture] [in all cities with a world wonder]",
+					"Empire enters golden age"
+				],
 				"requires": ["Cultural Centers", "Fine Arts"],
 				"row": 2,
 				"column": 2
@@ -636,7 +649,12 @@
 			},
 			{
 				"name": "Cultural Exchange",
-				"uniques": ["[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]"],
+				"uniques": [
+					// TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each.
+					"[+10]% [Culture] from every [Museum]",
+					"[+10]% [Culture] from every [Opera House]",
+					"[+10]% [Culture] from every [Broadcast Tower]"
+				],
 				"requires": ["Flourishing of the Arts"],
 				"row": 3,
 				"column": 2
@@ -644,9 +662,11 @@
 			{
 				"name": "Aesthetics Complete",
 				"uniques": [
-					"[+4 Culture] from every [Landmark]",
-					"Free Social Policy",
-					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
+					"Double quantity of [Tourism] produced",
+					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
 		]
