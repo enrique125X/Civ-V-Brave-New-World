@@ -60,31 +60,56 @@
         "isNationalWonder": true,
         "cost": 1,
         "uniques": [
-			"Only available <in cities without a [Palace]>",
-			"Only available <in cities without a [Nutmeg]>",
-			"Only available <in cities without a [Pepper]>",
-			"Limited to [1] per Civilization",
-			"Will not be displayed in Civilopedia",
 			"Provides [2] [Cloves]",
-			"Must be next to [Coast]"
-		],
-		"requiredTech": "Astronomy"
+			"Only available <in cities without a [Palace]> <hidden from users>",
+			"Only available <in cities without a [Nutmeg]> <hidden from users>",
+			"Only available <in cities without a [Pepper]> <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Must be next to [Coast]",
+			"Only available <on foreign continents>",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>"
+		]
     },
     {
         "name": "Nutmeg",
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Cloves]>","Only available <in cities without a [Pepper]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
-		"requiredTech": "Astronomy"
+        "uniques": [
+			"Provides [2] [Nutmeg]",
+			"Only available <in cities without a [Palace]> <hidden from users>",
+			"Only available <in cities without a [Cloves]> <hidden from users>",
+			"Only available <in cities without a [Pepper]> <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Must be next to [Coast]",
+			"Only available <on foreign continents>",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>"
+		]
     },
     {
         "name": "Pepper",
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Cloves]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
-		"requiredTech": "Astronomy"
+        "uniques": [
+			"Provides [2] [Pepper]",
+			"Only available <in cities without a [Palace]> <hidden from users>",
+			"Only available <in cities without a [Nutmeg]> <hidden from users>",
+			"Only available <in cities without a [Cloves]> <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Must be next to [Coast]",
+			"Only available <on foreign continents>",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>"
+		]
     },
 	{
 		"name": "Royal Library",
