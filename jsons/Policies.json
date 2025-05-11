@@ -1,4 +1,5 @@
 [
+	// Tradition
 	{
 		"name": "Tradition",
 		"era": "Ancient era",
@@ -77,6 +78,8 @@
 			}
 		]
 	},
+
+	// Piety
 	{
 		"name": "Piety",
 		"era": "Ancient era",
@@ -201,6 +204,8 @@
 			}
 		]
 	},
+
+	// Patronage
 	{
 		"name": "Patronage",
 		"era": "Medieval era",
@@ -285,6 +290,169 @@
 			}
 		]
 	},
+
+	// Rationalism
+	{
+		"name": "Rationalism",
+		"era": "Renaissance era",
+		"priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 40
+		},
+		"uniques": [
+			"[+10]% [Science] <while the empire is happy>"
+		],
+		"policies": [
+			{
+				"name": "Secularism",
+				"uniques": [
+					"[+2 Science] from every specialist [in all cities]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Humanism",
+				"uniques": [
+					"[-50]% weight to this choice for AI decisions",
+					"[Great Scientist] is earned [25]% faster"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Free Thought",
+				"uniques": [
+					"[+1 Science] from every [Trading post]",
+					"[+17]% [Science] from every [University]"
+				],
+				"requires": [
+					"Humanism"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Sovereignty",
+				"uniques": [
+					"[+1 Gold] from all [Science] buildings"
+				],
+				"requires": [
+					"Secularism"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Scientific Revolution",
+				"uniques": [
+					"Science gained from research agreements [+50]%",
+					"[-100]% weight to this choice for AI decisions"
+				],
+				"requires": [
+					"Sovereignty"
+				],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Rationalism Complete",
+				"uniques": [
+					"[1] Free Technologies",
+					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+				]
+			}
+		]
+	},
+
+	// Exploration
+	{
+		"name": "Exploration",
+		"uniques": [
+			"[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>"
+		],
+		"era": "Medieval era",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 0,
+			"Diplomatic": 10,
+			"Domination": 30,
+			"Scientific": 10
+		},
+		"policies": [
+			{
+				"name": "Maritime Infrastructure",
+				"uniques": [
+					"[+3 Production] [in all coastal cities]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Naval Tradition",
+				"uniques": [
+					"[+1 Happiness] from every [Lighthouse]",
+					"[+1 Happiness] from every [Harbor]",
+					"[+1 Happiness] from every [Seaport]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Navigation School",
+				"uniques": [
+					"[1] free [Great Admiral] units appear",
+					// "[Great Admiral] gains [2] movement",
+					"[Great Admiral] is earned [+50]% faster"
+				],
+				"requires": [
+					"Naval Tradition"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Merchant Navy",
+				"uniques": [
+					"[+1 Gold] from every [Lighthouse]",
+					"[+1 Gold] from every [Harbor]",
+					"[+1 Gold] from every [Seaport]",
+					"[+4 Production, +4 Culture] from every [East India Company]"
+				],
+				"requires": [
+					"Maritime Infrastructure",
+					"Naval Tradition"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Treasure Fleets",
+				"uniques": [
+					"[+4 Gold] from each Trade Route" // TODO: +4 Gold Gold from all your Sea Trade Routes
+				],
+				"requires": [
+					"Merchant Navy"
+				],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Exploration Complete",
+				"uniques": [
+					// TODO: See Hidden Antiquity Sites
+					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"[+3 Culture] [in all coastal cities]"
+				]
+			}
+		]
+	},
+
+	// Commerce
 	{
 		"name": "Commerce",
 		"era": "Medieval era",
@@ -364,82 +532,96 @@
 			}
 		]
 	},
+
+	// Aesthetics
 	{
-		"name": "Rationalism",
-		"era": "Renaissance era",
-		"priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 40
-		},
+		"name": "Aesthetics",
+		"era": "Classical era",
 		"uniques": [
-			"[+10]% [Science] <while the empire is happy>"
+			"[Great Artist] is earned [25]% faster",
+			"[Great Musician] is earned [25]% faster",
+			"[Great Writer] is earned [25]% faster"
 		],
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 60,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+		},
 		"policies": [
 			{
-				"name": "Secularism",
+				"name": "Cultural Centers",
 				"uniques": [
-					"[+2 Science] from every specialist [in all cities]"
+					"[+50]% Production when constructing [Monument] buildings [in your cities]",
+					"[+50]% Production when constructing [Amphitheater] buildings [in your cities]",
+					"[+50]% Production when constructing [Opera House] buildings [in your cities]",
+					"[+50]% Production when constructing [Museum] buildings [in your cities]",
+					"[+50]% Production when constructing [Broadcast Tower] buildings [in your cities]"
 				],
 				"row": 1,
 				"column": 2
 			},
 			{
-				"name": "Humanism",
+				"name": "Fine Arts",
 				"uniques": [
-					"[-50]% weight to this choice for AI decisions",
-					"[Great Scientist] is earned [25]% faster"
+					"[50]% of excess happiness converted to [Culture]"
 				],
 				"row": 1,
 				"column": 4
 			},
 			{
-				"name": "Free Thought",
+				"name": "Flourishing of the Arts",
 				"uniques": [
-					"[+1 Science] from every [Trading post]",
-					"[+17]% [Science] from every [University]"
+					"[+33]% [Culture] [in all cities with a world wonder]",
+					"Empire enters golden age"
 				],
 				"requires": [
-					"Humanism"
-				],
-				"row": 2,
-				"column": 4
-			},
-			{
-				"name": "Sovereignty",
-				"uniques": [
-					"[+1 Gold] from all [Science] buildings"
-				],
-				"requires": [
-					"Secularism"
+					"Cultural Centers",
+					"Fine Arts"
 				],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "Scientific Revolution",
+				"name": "Artistic Genius",
 				"uniques": [
-					"Science gained from research agreements [+50]%",
-					"[-100]% weight to this choice for AI decisions"
+					"Free [Great Artist] appears"
 				],
 				"requires": [
-					"Sovereignty"
+					"Fine Arts"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Cultural Exchange",
+				"uniques": [
+					// TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each.
+					"[+10]% [Culture] from every [Museum]",
+					"[+10]% [Culture] from every [Opera House]",
+					"[+10]% [Culture] from every [Broadcast Tower]"
+				],
+				"requires": [
+					"Flourishing of the Arts"
 				],
 				"row": 3,
 				"column": 2
 			},
 			{
-				"name": "Rationalism Complete",
+				"name": "Aesthetics Complete",
 				"uniques": [
-					"[1] Free Technologies",
-					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
+					"Double quantity of [Tourism] produced",
+					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
 		]
 	},
-	// Ideologies
+
+	// Ideology: Autocracy
 	{
 		"name": "Autocracy",
 		"era": "Renaissance era",
@@ -659,6 +841,8 @@
 			}
 		]
 	},
+
+	// Ideology: Order
 	{
 		"name": "Order",
 		"era": "Renaissance era",
@@ -877,6 +1061,8 @@
 			}
 		]
 	},
+
+	// Ideology: Freedom
 	{
 		"name": "Freedom",
 		"era": "Renaissance era",
@@ -1088,174 +1274,6 @@
 				"name": "Freedom Complete",
 				"uniques": [
 					"Will not be displayed in Civilopedia"
-				]
-			}
-		]
-	},
-	{
-		"name": "Exploration",
-		"uniques": [
-			"[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>"
-		],
-		"era": "Medieval era",
-		"priorities": {
-			"Neutral": 0,
-			"Cultural": 0,
-			"Diplomatic": 10,
-			"Domination": 30,
-			"Scientific": 10
-		},
-		"policies": [
-			{
-				"name": "Maritime Infrastructure",
-				"uniques": [
-					"[+3 Production] [in all coastal cities]"
-				],
-				"row": 1,
-				"column": 2
-			},
-			{
-				"name": "Naval Tradition",
-				"uniques": [
-					"[+1 Happiness] from every [Lighthouse]",
-					"[+1 Happiness] from every [Harbor]",
-					"[+1 Happiness] from every [Seaport]"
-				],
-				"row": 1,
-				"column": 4
-			},
-			{
-				"name": "Navigation School",
-				"uniques": [
-					"[1] free [Great Admiral] units appear",
-					// "[Great Admiral] gains [2] movement",
-					"[Great Admiral] is earned [+50]% faster"
-				],
-				"requires": [
-					"Naval Tradition"
-				],
-				"row": 2,
-				"column": 4
-			},
-			{
-				"name": "Merchant Navy",
-				"uniques": [
-					"[+1 Gold] from every [Lighthouse]",
-					"[+1 Gold] from every [Harbor]",
-					"[+1 Gold] from every [Seaport]",
-					"[+4 Production, +4 Culture] from every [East India Company]"
-				],
-				"requires": [
-					"Maritime Infrastructure",
-					"Naval Tradition"
-				],
-				"row": 2,
-				"column": 2
-			},
-			{
-				"name": "Treasure Fleets",
-				"uniques": [
-					"[+4 Gold] from each Trade Route" // TODO: +4 Gold Gold from all your Sea Trade Routes
-				],
-				"requires": [
-					"Merchant Navy"
-				],
-				"row": 3,
-				"column": 2
-			},
-			{
-				"name": "Exploration Complete",
-				"uniques": [
-					// TODO: See Hidden Antiquity Sites
-					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"[+3 Culture] [in all coastal cities]"
-				]
-			}
-		]
-	},
-	{
-		"name": "Aesthetics",
-		"era": "Classical era",
-		"uniques": [
-			"[Great Artist] is earned [25]% faster",
-			"[Great Musician] is earned [25]% faster",
-			"[Great Writer] is earned [25]% faster"
-		],
-		"priorities": {
-			"Neutral": 0,
-			"Cultural": 60,
-			"Diplomatic": 10,
-			"Domination": 10,
-			"Scientific": 10
-		},
-		"policies": [
-			{
-				"name": "Cultural Centers",
-				"uniques": [
-					"[+50]% Production when constructing [Monument] buildings [in your cities]",
-					"[+50]% Production when constructing [Amphitheater] buildings [in your cities]",
-					"[+50]% Production when constructing [Opera House] buildings [in your cities]",
-					"[+50]% Production when constructing [Museum] buildings [in your cities]",
-					"[+50]% Production when constructing [Broadcast Tower] buildings [in your cities]"
-				],
-				"row": 1,
-				"column": 2
-			},
-			{
-				"name": "Fine Arts",
-				"uniques": [
-					"[50]% of excess happiness converted to [Culture]"
-				],
-				"row": 1,
-				"column": 4
-			},
-			{
-				"name": "Flourishing of the Arts",
-				"uniques": [
-					"[+33]% [Culture] [in all cities with a world wonder]",
-					"Empire enters golden age"
-				],
-				"requires": [
-					"Cultural Centers",
-					"Fine Arts"
-				],
-				"row": 2,
-				"column": 2
-			},
-			{
-				"name": "Artistic Genius",
-				"uniques": [
-					"Free [Great Artist] appears"
-				],
-				"requires": [
-					"Fine Arts"
-				],
-				"row": 2,
-				"column": 4
-			},
-			{
-				"name": "Cultural Exchange",
-				"uniques": [
-					// TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each.
-					"[+10]% [Culture] from every [Museum]",
-					"[+10]% [Culture] from every [Opera House]",
-					"[+10]% [Culture] from every [Broadcast Tower]"
-				],
-				"requires": [
-					"Flourishing of the Arts"
-				],
-				"row": 3,
-				"column": 2
-			},
-			{
-				"name": "Aesthetics Complete",
-				"uniques": [
-					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
-					"Double quantity of [Tourism] produced",
-					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
 		]
