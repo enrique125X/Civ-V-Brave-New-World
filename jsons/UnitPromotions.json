@@ -5,7 +5,7 @@
 	},
 	{
 		"name": "Buffalo Horns",
-		"uniques": ["[+1] Movement","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+		"uniques": ["[+1] Movement","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses","uniques": ["Only available <for [Zulu] Civilizations>"],],
 		"unitTypes": ["Sword","Gunpowder"],
 		"column": 1
 	},
@@ -26,6 +26,7 @@
 	{
 		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
 		"civilopediaText": [{"text": "Access to special promotions"}],
+		"uniques": ["Only available <for [Kris Swordsman] units>"],
 		"unitTypes": ["Sword","Gunpowder"],
 		"column": 1,
 	},
