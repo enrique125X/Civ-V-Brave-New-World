@@ -30,7 +30,8 @@
 			"Free Social Policy <upon entering the [Future era]> <hidden from users>",
 			"Comment [Free Social Policy upon entering a new era]", // Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
 		],
-		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
+		"spyNames": ["Wincenty", "Roman", "Benita", "Jan", "Kazimierz", "Josef", "Krystyna Skarbek", "Tarnowski", "Marian", "Alenka"],
+		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
 			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun„","Kielce","Gliwice","Lowicz",
 			"Bytom","Olsztyn","Rzeszow","Ruda Slaska","Bielsko-Biala","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
 			"Leczyca","Walbrzych","Zielona Gora","Wloclawek"]
@@ -60,6 +61,7 @@
 			// Maybe give the Civ a burst of science after conquering a city (like Korea has with wonders)? Doesn't really solve the problems however
 			"[+25]% [Science] [in annexed cities]"
 		],
+		"spyNames": ["Adapa", "Kubaba", "Nabu", "Nergal", "Ninlil", "Ninurta", "Nisroch", "Shamash", "Pazuzu", "Quingu"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -89,6 +91,7 @@
 			"[Great Musician] is earned [50]% faster <during a Golden Age>",
 			"[Great Writer] is earned [50]% faster <during a Golden Age>"
 		],
+		"spyNames": ["Antonio", "Bartolomeu", "Domingos", "Estevao", "Fernao", "Francisco", "Pascoal", "Salvador", "Tome", "Bianca"],
 		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá",
@@ -118,6 +121,7 @@
 			"[-50]% maintenance costs <for [Gunpowder] units>",
 			"[+25]% XP gained from combat <for [Military] units>"
 		],
+		"spyNames": ["Gumede", "Jama", "Mageba", "Malanda", "Mnguni", "Ndaba", "Phunga", "Senzangakhona", "Balungile", "Samkelisiwe"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","eMangweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hluhluwe","Matubatuba","Mhlahlandlela",
@@ -146,6 +150,7 @@
 			// TODO: Resource diversity grants twice as much Gold Gold for Portugal in Trade Route.
 			"[+3 Gold] from every [Luxury resource]"
 		],
+		"spyNames": ["Francisco", "Gaspar", "Alvaro", "Bento", "Roberto", "Afonso", "Galeote", "Diogo", "Eliana", "Oriana"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
 			"Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego",
@@ -171,6 +176,7 @@
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
 		"uniqueText": "The first 3 cities founded on continents other than where Indonesia started each provide 2 copies of a unique Indonesian Luxury Resource (either Cloves, Peppers, or Nutmeg).",
+		"spyNames": ["Adityawarman", "Airlangga", "Citra", "Halayudha", "Jayakatwang", "Lingga", "Mahendradatta", "Prapana", "Raden", "Davi"],
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
 			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
@@ -214,6 +220,7 @@
 			"[+1 Culture, +2 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
 			// TODO: Trade Route owners receive +2 Gold Gold for each Trade Route sent to Morocco.
 		],
+		"spyNames": ["el-Krim", "ibn-Battuta", "al-Jazzar", "al-Kahina", "Hayyuj", "Kusayla", "al-Idrisi", "Salih", "Tariq", "Dihya"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
 			"Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
@@ -246,6 +253,7 @@
 			"May buy items in puppet cities"
 			// TODO: Double the normal number of Trade Route available
 		],
+		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
 		"cities": ["Venice"]
 	},
 	{
@@ -270,6 +278,7 @@
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"[-25]% Culture cost of natural border growth [in all cities]" // Founded cities start with additional territory
 		],
+		"spyNames": ["Cameahwait", "Ondongarte", "Queenah", "Pugweenee", "Sacajawea", "Sagwitch", "Sanpitch", "Tetoharsky", "Tuziyammo", "Mugwayan"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
