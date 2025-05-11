@@ -978,12 +978,7 @@
 				"name": "Volunteer Army",
 				"uniques": [
 					"[6] units cost no maintenance",
-					"Free [Foreign Legion] appears",
-					"Free [Foreign Legion] appears",
-					"Free [Foreign Legion] appears",
-					"Free [Foreign Legion] appears",
-					"Free [Foreign Legion] appears",
-					"Free [Foreign Legion] appears",
+					"[6] free [Foreign Legion] units appear",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -1030,12 +1025,12 @@
 			{
 				"name": "New Deal",
 				"uniques": [
-					"Comment [Great Person improvements provide +4 of the relevant yield]",
-					"[+4 Science] from [Academy] tiles [in your cities]",
-					"[+4 Culture] from [Landmark] tiles [in your cities]",
-					"[+4 Production] from [Manufactory] tiles [in your cities]",
-					"[+4 Gold] from [Customs house] tiles [in your cities]",
-					"[+4 Faith] from [Holy site] tiles [in your cities]",
+					"Comment [Great Person improvements provide +4 of their relevant yield]",
+					"[+4 Science] from [Academy] tiles [in your cities] <hidden from users>",
+					"[+4 Culture] from [Landmark] tiles [in your cities] <hidden from users>",
+					"[+4 Production] from [Manufactory] tiles [in your cities] <hidden from users>",
+					"[+4 Gold] from [Customs house] tiles [in your cities] <hidden from users>",
+					"[+4 Faith] from [Holy site] tiles [in your cities] <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
