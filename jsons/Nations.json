@@ -56,6 +56,8 @@
 		"uniqueName": "Treasures of Nineveh",
 		"uniques": [
 			// TODO: When a city is conquered, gain a free Technology already discovered by its owner. Gaining a city through a trade deal does not count, and it can only happen once per enemy city.
+			// Free Technology <upon conquering a city>   Closest we can get to the BNW behaviour.  Doesn't take into account what techs the owner has and can happen more than once per enemy city.
+			// Maybe give the Civ a burst of science after conquering a city (like Korea has with wonders)? Doesn't really solve the problems however
 			"[+25]% [Science] [in annexed cities]"
 		],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
