@@ -29,7 +29,6 @@
 			"Free Social Policy <upon entering the [Information era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Future era]> <hidden from users>",
 			"Comment [Free Social Policy upon entering a new era]", // Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
-			"[-10]% Culture cost of adopting new Policies"
 		],
 		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
 			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun„","Kielce","Gliwice","Lowicz",
@@ -57,6 +56,8 @@
 		"uniqueName": "Treasures of Nineveh",
 		"uniques": [
 			// TODO: When a city is conquered, gain a free Technology already discovered by its owner. Gaining a city through a trade deal does not count, and it can only happen once per enemy city.
+			// Free Technology <upon conquering a city>   Closest we can get to the BNW behaviour.  Doesn't take into account what techs the owner has and can happen more than once per enemy city.
+			// Maybe give the Civ a burst of science after conquering a city (like Korea has with wonders)? Doesn't really solve the problems however
 			"[+25]% [Science] [in annexed cities]"
 		],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
