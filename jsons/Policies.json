@@ -406,8 +406,8 @@
 				"name": "Navigation School",
 				"uniques": [
 					"[1] free [Great Admiral] units appear",
-					// "[Great Admiral] gains [2] movement",
-					"[Great Admiral] is earned [+50]% faster"
+					"[Great Admiral] is earned [+50]% faster",
+					"Comment [+2 Movement for all Great Admirals]"
 				],
 				"requires": [
 					"Naval Tradition"
@@ -634,8 +634,8 @@
 		},
 		"uniques": [
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
-			"Only available <before adopting [Order]>",
-			"Only available <before adopting [Freedom]>",
+			"Unavailable <after adopting [Order]>",
+			"Unavailable <after adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
@@ -681,7 +681,9 @@
 			{
 				"name": "Futurism",
 				"uniques": [
-					"Comment [+250 Tourism when a Great Writer, Artist or Musician is born]",
+					"Instantly provides [250] [Tourism] <upon gaining a [Great Writer] unit>",
+					"Instantly provides [250] [Tourism] <upon gaining a [Great Artist] unit>",
+					"Instantly provides [250] [Tourism] <upon gaining a [Great Musician] unit>",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
@@ -735,10 +737,12 @@
 			{
 				"name": "Lightning Warfare",
 				"uniques": [
-					"All newly-trained [Armored] units [in your cities] receive the [Lightning Warfare] promotion",
 					"[3] Movement <for [Great General] units>",
-					"[1] Movement <for [Armored] units>",
 					"[15]% Strength <for [Armored] units> <when attacking>",
+					"[1] Movement <for [Armored] units>",
+					"Comment [Armored units ignore zone of control]",
+					"[Armored] units gain the [Lightning Warfare] promotion <hidden from users>",
+					"All newly-trained [Armored] units [in your cities] receive the [Lightning Warfare] promotion <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -855,8 +859,8 @@
 		},
 		"uniques": [
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
-			"Only available <before adopting [Autocracy]>",
-			"Only available <before adopting [Freedom]>",
+			"Unavailable <after adopting [Autocracy]>",
+			"Unavailable <after adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
@@ -1075,8 +1079,8 @@
 		},
 		"uniques": [
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
-			"Only available <before adopting [Autocracy]>",
-			"Only available <before adopting [Order]>",
+			"Unavailable <after adopting [Autocracy]>",
+			"Unavailable <after adopting [Order]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
@@ -1277,16 +1281,16 @@
 				]
 			}
 		]
-	}
+	},
 
-	/*
 	{
-		"name": "Obsolete",
+		"name": "Removed",
 		"era": "Future era",
 		"uniques": [
 			"Comment [Removed in Brave New World]",
 			"Unavailable",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"[-100]% weight to this choice for AI decisions"
 		],
 		"priorities": {
 			"Neutral": -10,
@@ -1396,7 +1400,7 @@
 				"column": 4
 			},
 			{
-				"name": "Obsolete Complete",
+				"name": "Removed Complete",
 				"uniques": [
 					"Unavailable",
 					"Will not be displayed in Civilopedia"
@@ -1404,5 +1408,4 @@
 			}
 		]
 	}
-	*/
 ]

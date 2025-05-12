@@ -313,7 +313,7 @@
 		"isWonder": true,
 		"requiredTech": "Masonry",
 		"uniques": [
-			"Comment [Gain 100 Gold each time a Great Person is expended]",
+			"Gain [100] [Gold] <upon gaining a [Great Person] unit>",
 			"[+2 Gold] from [Marble] tiles [in this city]",
 			"[+2 Gold] from [Stone] tiles [in this city]"
 		],
