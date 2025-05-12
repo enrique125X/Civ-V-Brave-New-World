@@ -292,20 +292,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Merchant of Venice",
-		"uniqueTo": "Venice",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": [
-			"Great Person - [Gold]","Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Double movement in [Coast]",
-			"Unbuildable",
-			"Uncapturable"
-		]
-	},
-	{
 		"name": "Archaeologist",
 		"unitType": "Civilian",
 		"cost": 200,
@@ -343,7 +329,8 @@
             "Unbuildable",
             "Uncapturable",
 			"Can be earned through combat",
-			"[2] Movement <after adopting [Navigation School]>"
+			"[2] Movement <after adopting [Navigation School]>",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
 			// TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
         ],
         "movement": 4
@@ -358,7 +345,8 @@
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable",
-			"Instantly provides [250] [Tourism] <after adopting [Futurism]>"
+			"Instantly provides [250] [Tourism] <after adopting [Futurism]>",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
         ],
 		"civilopediaText": [
 			{
@@ -368,17 +356,134 @@
 		],
         "movement": 4
     },
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can hurry technology research",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
+			"Is part of Great Person group [Scientist]",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Merchant of Venice",
+		"uniqueTo": "Venice",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+            "Is part of Great Person group [Merchant]",
+			"Great Person - [Gold]",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Double movement in [Coast]",
+			"Unbuildable",
+			"Uncapturable",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
+		]
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Is part of Great Person group [Merchant]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Is part of Great Person group [Engineer]",
+            "Great Person - [Production]",
+			 "Unbuildable",
+			 "Uncapturable",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+            "Is part of Great Person group [Prophet]",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [War]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [War]",
+            "Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
+		],
+		"movement": 5
+	},
     {
         "name": "Great Writer",
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Can generate a large amount of culture", // Write Political Treatise
-            "Is part of Great Person group [Writer]",
+            "Is part of Great Person group [Artist]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable",
-			"Instantly provides [250] [Tourism] <after adopting [Futurism]>"
+			"Instantly provides [250] [Tourism] <after adopting [Futurism]>",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
         ],
 		"civilopediaText": [
 			{
@@ -394,11 +499,12 @@
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
             "Instantly provides [50] [Tourism] <by consuming this unit>", // Perform Concert Tour
-            "Is part of Great Person group [Musician]",
+            "Is part of Great Person group [Artist]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable",
-			"Instantly provides [250] [Tourism] <after adopting [Futurism]>"
+			"Instantly provides [250] [Tourism] <after adopting [Futurism]>",
+			"Gain [100] [Gold] <if [Mausoleum of Halicarnassus] is constructed>"
         ],
 		"civilopediaText": [
 			{
