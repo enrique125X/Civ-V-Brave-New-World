@@ -396,16 +396,66 @@
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
+		"name": "Machu Picchu",
+		"faith": 2,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": [
+			"[+25]% [Gold] from Trade Routes",
+			"Must have an owned [Mountain] within [2] tiles"
+		],
+		"requiredTech": "Guilds",
+		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
+	},
+	{
 		"name": "Forbidden Palace",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
+			// TODO: Unhappiness from number of citizens in non-occupied cities reduced by 10%
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <after adopting [Patronage]>"
+			// TODO: Grants 2 additional Delegates for the World Congress
 		],
 		"requiredTech": "Banking",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+	},
+	{
+		"name": "Petra",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Must be next to [Desert]",
+			"[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]",
+			"[+6 Culture] [in this city] <after discovering [Archaeology]>",
+			// TODO: +1 Additional trade slot
+			// TODO: Free Caravan Appears
+		],
+		"requiredTech": "Currency",
+		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+	},
+	{
+		"name": "Terracotta Army",
+		"culture": 6,
+		"isWonder": true,
+		"requiredTech": "Construction",
+		"uniques": [
+			// TODO: Creates a Copy of each unique Military Unit you currently possess
+		],
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
+		"name": "Alhambra",
+		"culture": 1,
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	{
 		"name": "Big Ben",
@@ -459,6 +509,18 @@
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
+    {
+        "name": "Great Firewall",
+        "isWonder": true,
+        "uniques": [
+			"Only available <when espionage is enabled>",
+			"[-99]% enemy spy effectiveness [in this city]",
+            "[-25]% enemy spy effectiveness [in all cities]"
+			// TODO: Negates the Tourism Tourism bonus from other players' Internet technology
+		],
+        "requiredTech": "Computers",
+        "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
+    },
 	{
 		"name": "Kremlin",
 		"culture": 1,
@@ -538,7 +600,7 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-			"Provides [1] [Tourism] <for every [1] [Culture]> <in this city>", // +100% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [1] [[Wonder] Buildings]> <in this city>", // TODO: +100% of the Culture output of Wonders and Improvements in the city added to Tourism
 			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
             "Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [Your] cities>"
