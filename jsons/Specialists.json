@@ -16,10 +16,5 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Writer": 3},
 		"color": [160, 32, 240]
-	},
-	{
-		"name": "Admiral",
-		"greatPersonPoints": {"Great Admiral": 1},
-		"color": [223, 14, 14]
 	}
 ]
