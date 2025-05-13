@@ -144,30 +144,60 @@
 		],
         "uniques": [
 			"Generated on every [150] tiles",
-			"Not shown on world screen"
+			"Not shown on world screen",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Antiquity Sites can be dug up for Artifacts, or turned into Landmarks, by Archaeologists." },
 			{ "separator": true },
 			{
-				"text": "Archaeologist",
+				"text": "Dug up by Archaeologists",
 				"link": "Unit/Archaeologist"
 			},
 			{
-				"text": "Artifact",
+				"text": "Architectural Digs result in Artifacts",
 				"link": "Resource/Artifact"
+			},
+			{
+				"text": "See also: Hidden Antiquity Site",
+				"link": "Resource/Hidden Antiquity Site"
 			}
 		]
     },
-	/*
-	// TODO: Add Hidden Antiquity site https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
-	{
-		"name": "Hidden Antiquity Site",
-		"resourceType": "Bonus",
-		"revealedBy": "Archaeology",
-		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest", "Jungle", "Marsh"]
-	}
-	*/
+    {
+        "name": "Hidden Antiquity Site",
+        "resourceType": "Bonus",
+        "revealedBy": "Hidden Antiquity Sites",
+        "terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
+        "improvedBy": [
+			"Archaeological Dig"
+		],
+        "uniques": [
+			"Generated on every [200] tiles",
+			"Not shown on world screen",
+			"Cannot be traded <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Hidden Antiquity Sites can be dug up by Archaeologists for a chance of Great Works of Writing and Cultural Renaissances. They are revealed by completing the Exploration Policy tree." },
+			{ "separator": true },
+			{
+				"text": "Dug up by Archaeologists",
+				"link": "Unit/Archaeologist"
+			},
+			{
+				"text": "Archaeological Digs can dig up Great Works of Writing",
+				"link": "Resource/Great Work of Writing"
+			},
+			{
+				"text": "Revealed by completing the Exploration Policy Tree",
+				"link": "Policy/Exploration Complete"
+			},
+			{
+				"text": "See also: Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			}
+		]
+    },
     {
         "name": "Great Work of Writing",
         "resourceType": "Strategic",
@@ -181,6 +211,10 @@
 			{
 				"text": "Great Work of Writing Slot",
 				"link": "Resource/Great Work of Writing Slot"
+			},
+			{
+				"text": "Chance to be found in Hidden Antiquity Sites",
+				"link": "Resource/Hidden Antiquity Site"
 			}
 		]
     },
@@ -227,19 +261,15 @@
 			{ "text": "Artifacts are found from Archaeological Digs with Archaeologists on Antiquity Sites. They can then be slotted into a Great Work of Art Slot." },
 			{ "separator": true },
 			{
-				"text": "Archaeologist",
+				"text": "Found by Archaeologist",
 				"link": "Unit/Archaeologist"
 			},
 			{
-				"text": "Archaeological Dig",
-				"link": "Improvement/Archaeological Dig"
-			},
-			{
-				"text": "Antiquity Site",
+				"text": "Found in Antiquity Site",
 				"link": "Resource/Antiquity Site"
 			},
 			{
-				"text": "Great Work of Art Slot",
+				"text": "Used in a Great Work of Art Slot in cities",
 				"link": "Resource/Great Work of Art Slot"
 			}
 		]
@@ -272,11 +302,15 @@
 			"Excluded from map editor"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted with a Great Work of Art." },
+			{ "text": "Slotted with either a Great Work of Art or an Artefact." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Art",
 				"link": "Resource/Great Work of Art"
+			},
+			{
+				"text": "Artefact",
+				"link": "Resource/Artefact"
 			}
 		]
     },
