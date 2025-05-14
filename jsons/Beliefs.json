@@ -49,7 +49,7 @@
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-            "[+5 Culture] from every [Hermitage]"
+			"Comment [Hermitage provides +5 Culture and +5 Tourism]"
         ]
     },
 

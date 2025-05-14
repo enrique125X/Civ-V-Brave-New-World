@@ -391,7 +391,7 @@ PolicyBranchIcons/Freedom
   index: -1
 PolicyBranchIcons/Order
   rotate: false
-  xy: 1138, 750
+  xy: 1138, 692
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -615,28 +615,28 @@ PolicyIcons/Iron Curtain
   index: -1
 PolicyIcons/Lightning Warfare
   rotate: false
-  xy: 718, 120
+  xy: 714, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Maritime Infrastructure
   rotate: false
-  xy: 714, 62
+  xy: 656, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Media Culture
   rotate: false
-  xy: 656, 4
+  xy: 714, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mercenary Army
   rotate: false
-  xy: 714, 4
+  xy: 984, 476
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -650,161 +650,161 @@ PolicyIcons/Merchant Confederacy
   index: -1
 PolicyIcons/Mobilization
   rotate: false
-  xy: 984, 476
+  xy: 1080, 746
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Navigation School
   rotate: false
-  xy: 1080, 746
+  xy: 1080, 688
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/New Deal
   rotate: false
-  xy: 1080, 688
+  xy: 1138, 750
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Party Leadership
   rotate: false
-  xy: 1138, 692
+  xy: 1992, 904
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Patriotic War
   rotate: false
-  xy: 1992, 904
+  xy: 1992, 846
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Resettlement
   rotate: false
-  xy: 1992, 846
+  xy: 772, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Skyscrapers
   rotate: false
-  xy: 772, 62
+  xy: 772, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Socialist Realism
   rotate: false
-  xy: 772, 4
+  xy: 972, 638
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Space Procurements
   rotate: false
-  xy: 972, 638
+  xy: 1188, 854
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Spaceflight Pioneers
   rotate: false
-  xy: 1188, 854
+  xy: 1138, 634
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Their Finest Hour
   rotate: false
-  xy: 1138, 634
+  xy: 1196, 796
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Third Alternative
   rotate: false
-  xy: 1196, 796
+  xy: 1196, 738
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Treasure Fleets
   rotate: false
-  xy: 1196, 738
+  xy: 1196, 680
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Treaty Organization
   rotate: false
-  xy: 1196, 680
+  xy: 1196, 622
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Autocracy)
   rotate: false
-  xy: 1196, 622
+  xy: 1019, 418
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Freedom)
   rotate: false
-  xy: 1196, 622
+  xy: 1019, 418
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Order)
   rotate: false
-  xy: 1196, 622
+  xy: 1019, 418
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Suffrage
   rotate: false
-  xy: 1019, 418
+  xy: 1050, 360
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Urbanization
   rotate: false
-  xy: 1050, 360
+  xy: 1050, 302
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Volunteer Army
   rotate: false
-  xy: 1050, 302
+  xy: 1030, 630
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Wagon Trains
   rotate: false
-  xy: 1030, 630
+  xy: 1011, 572
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Workers' Faculties
   rotate: false
-  xy: 1011, 572
+  xy: 1069, 572
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Young Pioneers
   rotate: false
-  xy: 1069, 572
+  xy: 1127, 576
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1505,6 +1505,13 @@ UnitPromotionIcons/Homeland Guardian
 UnitPromotionIcons/Heavy Charge
   rotate: false
   xy: 660, 178
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lightning Warfare
+  rotate: false
+  xy: 718, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
