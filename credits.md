@@ -119,3 +119,4 @@
 - [Resettlement](https://thenounproject.com/icon/resettlement-2209642/) by Nithinan Tatah
 - [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
 - [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
+- [Lightning Warfare](https://thenounproject.com/icon/tank-6738746/) by Hafid Firman Syarif
