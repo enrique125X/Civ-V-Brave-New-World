@@ -208,7 +208,7 @@
 	// Patronage
 	{
 		"name": "Patronage",
-		"era": "Medieval era",
+		"era": "Classical era", // Medieval in Vanilla
 		"priorities": {
             "Neutral": 0,
             "Cultural": 0,
