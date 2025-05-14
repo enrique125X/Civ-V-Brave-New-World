@@ -133,7 +133,8 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
             // TODO: Your spies exert religious pressure on the cities they occupy
-			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]"
+			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]",
+			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]"
         ]
     },
     {

@@ -93,7 +93,7 @@
 		"uniques": [
 			"[+50]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+50]% Production when constructing [Temple] buildings [in all cities]",
-			"[-100]% weight to this choice for AI decisions <when religion is disabled>"
+			"Only available <when religion is enabled>"
 		],
 		"policies": [
 			{

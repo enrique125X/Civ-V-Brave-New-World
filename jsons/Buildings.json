@@ -252,15 +252,13 @@
         "replaces": "Garden",
         "uniqueTo": "Indonesia",
         "cost": 120,
-        "faith": 3, // TODO: +2 Faith
+        "faith": 3, // TODO: +2 Faith, +2 additional Faith for each Religion that has at least 1 follower in the city.
         "uniques": [
 			"[+25]% Great Person generation [in this city]"
-			// TODO: +2 Faith for each World Religion that has at least 1 follower in the city.
-			// TODO: +2 Happiness with Peace Gardens Religious Belief
 		],
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "requiredTech": "Drama and Poetry"
+        "requiredTech": "Theology"
     },
 	{
         "name": "Hanse",
@@ -427,7 +425,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"[+25]% [Gold] from Trade Routes",
+			"[+25]% [Gold] from Trade Routes", // +25% Gold from City Connection City Connections
 			"Must have an owned [Mountain] within [2] tiles"
 		],
 		"requiredTech": "Guilds",
@@ -577,7 +575,8 @@
 		"isWonder": true,
 		"uniques": [
 			"[3] free [Missionary] units appear",
-			"Can only be built <in [in holy cities] cities>"
+			"Can only be built <in [in holy cities] cities>",
+			"Only available <when religion is enabled>"
 		],
 		"requiredTech": "Theology",
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
@@ -628,7 +627,7 @@
 			"Provides [1] [Tourism] <for every [1] [[Wonder] Buildings]> <in this city>", // TODO: +100% of the Culture output of Wonders and Improvements in the city added to Tourism
 			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
             "Cost increases by [30] per owned city",
-			"Only available <if [Hotel] is constructed in all [Your] cities>"
+			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"
 		]
     },
 	{
