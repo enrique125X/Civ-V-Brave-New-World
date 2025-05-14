@@ -7,7 +7,22 @@
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
 			"Unavailable", // TODO: Add Caravan https://civilization.fandom.com/wiki/Caravan_(Civ5)
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Unavailable <for [City-States] Civilizations>"
+		]
+	},
+	{
+		"name": "Cargo Ship",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 100,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Unavailable", // TODO: Add Cargo Ship https://civilization.fandom.com/wiki/Cargo_Ship_(Civ5)
+			"Will not be displayed in Civilopedia",
+			"Unavailable <for [City-States] Civilizations>"
+			// TODO: Establish Trade Route (Route must run over water from one coastal city to another.)
+			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
 		]
 	},
 	{
@@ -301,7 +316,8 @@
 			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 			"Cannot be purchased",
-			"Only available <in cities with a [University]>"
+			"Only available <in cities with a [University]>",
+			"Unavailable <for [City-States] Civilizations>"
 		],
 		"civilopediaText": [
 			{ "text": "Archaeologists can either dig up Antiquity Sites for Artifacts, or turn them into a Landmark." },
