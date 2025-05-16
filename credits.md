@@ -120,3 +120,5 @@
 - [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
 - [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
 - [Lightning Warfare](https://thenounproject.com/icon/tank-6738746/) by Hafid Firman Syarif
+- [Cargo Ship](https://thenounproject.com/icon/cargo-7762395/) by Lulis Dian RP
+- [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
