@@ -544,9 +544,10 @@
 		"name": "Aesthetics",
 		"era": "Classical era",
 		"uniques": [
-			"[Great Artist] is earned [25]% faster",
-			"[Great Musician] is earned [25]% faster",
-			"[Great Writer] is earned [25]% faster"
+			"Comment [Earn Great Artists, Musicians, and Writers 25% faster]",
+			"[Great Artist] is earned [25]% faster <hidden from users>",
+			"[Great Musician] is earned [25]% faster <hidden from users>",
+			"[Great Writer] is earned [25]% faster <hidden from users>"
 		],
 		"priorities": {
 			"Neutral": 0,
@@ -555,6 +556,11 @@
 			"Domination": 10,
 			"Scientific": 10
 		},
+		"civilopediaText": [
+			{"text": "Great Artist", "link": "Unit/Great Artist"},
+			{"text": "Great Musician", "link": "Unit/Great Musician"},
+			{"text": "Great Writer", "link": "Unit/Great Writer"}
+		],
 		"policies": [
 			{
 				"name": "Cultural Centers",
@@ -619,9 +625,10 @@
 				"uniques": [
 					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
 					"Double quantity of [Tourism] produced <in cities with a [Museum]>",
-					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"Comment [May purchase Great Artists, Musicians and Writers with Faith starting in the Industrial era]",
+					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
+					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
+					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>"
 				]
 			}
 		]
@@ -639,7 +646,8 @@
             "Scientific": 0
 		},
 		"uniques": [
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Comment [Requires either Modern era, or three Factories]",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Order]>",
 			"Unavailable <after adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -864,7 +872,8 @@
             "Scientific": 30
 		},
 		"uniques": [
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Comment [Requires either Modern era, or three Factories]",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]>",
 			"Unavailable <after adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -1084,7 +1093,8 @@
             "Scientific": 30
 		},
 		"uniques": [
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Comment [Requires either Modern era, or three Factories]",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]>",
 			"Unavailable <after adopting [Order]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
