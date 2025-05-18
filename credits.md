@@ -73,7 +73,7 @@
 - Flourish by Nugraha Wira Menggala from NounProject.com
 - Artist by my name is mud from NounProject.com
 - Exchange by Markus from NounProject.com
-- [Suitecase](https://thenounproject.com/icon/suitcase-3406281/) by Alice Design from NounProject.com
+- [Tourism](https://thenounproject.com/icon/suitcase-3406281/) by Alice Design from NounProject.com
 - [Quill Pen](https://thenounproject.com/icon/quill-pen-6965217/) by elastic1studio from NounProject.com
 - [Color Palette](https://thenounproject.com/icon/color-palette-4655601/) by YANDI RS from NounProject.com
 - [Music Note](https://thenounproject.com/icon/music-note-4840954/) by hibernut from NounProject.com
@@ -123,3 +123,4 @@
 - [Cargo Ship](https://thenounproject.com/icon/cargo-7762395/) by Lulis Dian RP
 - [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
 - [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
+- [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
