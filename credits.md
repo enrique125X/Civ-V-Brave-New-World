@@ -122,3 +122,4 @@
 - [Lightning Warfare](https://thenounproject.com/icon/tank-6738746/) by Hafid Firman Syarif
 - [Cargo Ship](https://thenounproject.com/icon/cargo-7762395/) by Lulis Dian RP
 - [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
+- [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
