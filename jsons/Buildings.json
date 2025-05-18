@@ -10,7 +10,8 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Great Work of Art Slot]"
+			"Provides [1] [Great Work of Art Slot]",
+			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // Great Admirals can always traverse ocean tiles
 		]
 	},
 	{
@@ -62,7 +63,7 @@
 		"cost": 300,
 		"maintenance": 0,
 		"uniques": [
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture output of Wonders and Improvements in the city added to Tourism
 			"Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Refrigeration"
@@ -269,8 +270,8 @@
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
         "uniques": [
-			"[+5]% [Production] [in this city]" // TODO: +5% Production per City-State trade route in the empire
-			// TODO: +1 Gold per incoming trade route, +1 for the foreign owner
+			"[+5]% [Production] from City-States", // TODO: +5% Production per City-State trade route in the empire
+			"[+1 Gold] from each Trade Route" // TODO: +1 Gold per incoming trade route, +1 for the foreign owner
 		],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
@@ -466,7 +467,7 @@
 		"isWonder": true,
 		"requiredTech": "Construction",
 		"uniques": [
-			// TODO: Creates a Copy of each unique Military Unit you currently possess
+			"Provides a [Barracks] in your first [3] cities for free" // TODO: Creates a Copy of each unique Military Unit you currently possess
 		],
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -539,7 +540,8 @@
 			"Only available <when espionage is enabled>",
 			"[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in all cities]"
-			// TODO: Negates the Tourism Tourism bonus from other players' Internet technology
+			// TODO: Negates the Tourism bonus from other players' Internet technology
+			// "Double quantity of [Tourism] produced <if [Great Firewall] is not constructed by anybody>"
 		],
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
@@ -768,7 +770,6 @@
 		"uniques": [
 			"Provides [1] [Great Work of Music Slot]",
 			"Destroyed when the city is captured"
-			// TODO: +34% Tourism Tourism in this city with Media Culture Freedom tenet
 		]
 	},
 	{

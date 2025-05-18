@@ -339,11 +339,10 @@
 
     // Great People
     {
-        "name": "Great Admiral",
-		// TODO: https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
+        "name": "Great Admiral", // https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
         "unitType": "Civilian Water",
         "uniques": [
-			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
+			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
             "Is part of Great Person group [War]",
             "Great Person - [War]",
             "Unbuildable",

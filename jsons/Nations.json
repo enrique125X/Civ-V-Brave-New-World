@@ -59,7 +59,7 @@
 			// TODO: When a city is conquered, gain a free Technology already discovered by its owner. Gaining a city through a trade deal does not count, and it can only happen once per enemy city.
 			// Free Technology <upon conquering a city>   Closest we can get to the BNW behaviour.  Doesn't take into account what techs the owner has and can happen more than once per enemy city.
 			// Maybe give the Civ a burst of science after conquering a city (like Korea has with wonders)? Doesn't really solve the problems however
-			"[+25]% [Science] [in annexed cities]"
+			"[+25]% [Science] [in annexed cities] <for [20] turns>"
 		],
 		"spyNames": ["Adapa", "Kubaba", "Nabu", "Nergal", "Ninlil", "Ninurta", "Nisroch", "Shamash", "Pazuzu", "Quingu"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
@@ -147,8 +147,8 @@
 		"innerColor": [8,25,115],
 		"uniqueName": "Mare Clausum",
 		"uniques": [
-			// TODO: Resource diversity grants twice as much Gold Gold for Portugal in Trade Route.
-			"[+3 Gold] from every [Luxury resource]"
+			// Resource diversity grants twice as much Gold for Portugal in Trade Route.
+			"[+100]% [Gold] from Trade Routes"
 		],
 		"spyNames": ["Francisco", "Gaspar", "Alvaro", "Bento", "Roberto", "Afonso", "Galeote", "Diogo", "Eliana", "Oriana"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
@@ -218,7 +218,7 @@
 		"uniqueName": "Gateway to Africa",
 		"uniques": [
 			"[+1 Culture, +2 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
-			// TODO: Trade Route owners receive +2 Gold Gold for each Trade Route sent to Morocco.
+			// TODO: Trade Route owners receive +2 Gold for each Trade Route sent to Morocco.
 		],
 		"spyNames": ["el-Krim", "ibn-Battuta", "al-Jazzar", "al-Kahina", "Hayyuj", "Kusayla", "al-Idrisi", "Salih", "Tariq", "Dihya"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
