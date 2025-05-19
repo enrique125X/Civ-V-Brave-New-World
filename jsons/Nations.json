@@ -395,7 +395,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [156, 57, 189],
+		"innerColor": [255, 255, 255],
 		"cities": ["Bratislava"]
 	},
 	{
@@ -407,7 +407,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [219, 37, 232],
+		"innerColor": [167, 162, 216],
 		"cities": ["Buenos Aires"]
 	},
 	{
@@ -419,7 +419,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [155, 0, 166],
+		"innerColor": [0, 163, 181],
 		"cities": ["Kiev"]
 	},
 	{
@@ -431,7 +431,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [122, 62, 171],
+		"innerColor": [121, 226, 0],
 		"cities": ["Kabul"]
 	},
 	{
@@ -443,7 +443,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [229, 116, 237],
+		"innerColor": [51, 97, 242],
 		"cities": ["Kiev"]
 	},
 	{
@@ -455,7 +455,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [116, 149, 232],
+		"innerColor": [186, 18, 202],
 		"cities": ["Byblos"]
 	},
 	{
@@ -467,7 +467,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [67, 158, 232],
+		"innerColor": [127, 177, 236],
 		"cities": ["Mogadishu"]
 	},
 	{
@@ -479,7 +479,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [66, 114, 237],
+		"innerColor": [172, 172, 172],
 		"cities": ["Ormus"]
 	},
 	{
@@ -491,7 +491,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [33, 43, 237],
+		"innerColor": [246, 253, 160],
 		"cities": ["Panama City"]
 	},
 	{
@@ -503,7 +503,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [14, 22, 194],
+		"innerColor": [18, 188, 221],
 		"cities": ["Riga"]
 	},
 	{
@@ -515,7 +515,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [0, 94, 171],
+		"innerColor": [167, 162, 216],
 		"cities": ["Ur"]
 	},
 	{
@@ -527,20 +527,20 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [4, 53, 179],
+		"innerColor": [193, 84, 255],
 		"cities": ["Vancouver"]
 	},
 	{
-		"name": "Antananavario",
-		"adjective": ["Antananavario"],
+		"name": "Antananarivo",
+		"adjective": ["Antananarivo"],
 		"cityStateType": "Mercantile",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [229, 116, 237],
-		"cities": ["Antananavario"]
+		"innerColor": [225, 194, 129],
+		"cities": ["Antananarivo"]
 	},
 	{
 		"name": "Malacca",
@@ -551,7 +551,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [81, 140, 3],
+		"innerColor": [0, 163, 181],
 		"cities": ["Malacca"]
 	},
 	{
@@ -563,7 +563,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [45, 191, 0],
+		"innerColor": [113, 227, 114],
 		"cities": ["Melbourne"]
 	},
 	{
@@ -575,7 +575,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [31, 133, 0],
+		"innerColor": [246, 253, 160],
 		"cities": ["Samarkand"]
 	},
 	{
@@ -587,7 +587,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [168, 10, 2],
+		"innerColor": [18, 188, 221],
 		"cities": ["M'banza-Kongo"]
 	},
 	{
@@ -599,7 +599,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [148, 62, 43],
+		"innerColor": [113, 227, 114],
 		"cities": ["Sofia"]
 	},
 	{
@@ -611,7 +611,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [174, 194, 185],
+		"innerColor": [172, 172, 172],
 		"cities": ["Ife"]
 	},
 	{
@@ -623,7 +623,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [219, 213, 211],
+		"innerColor": [186, 18, 202],
 		"cities": ["Kathmandu"]
 	},
 	{
@@ -635,7 +635,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [214, 89, 255],
+		"innerColor": [186, 18, 202],
 		"cities": ["Bogota"]
 	},
 	{
@@ -647,7 +647,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [0, 60, 92],
+		"innerColor": [225, 194, 129],
 		"cities": ["Wellington"]
 	},
 	{
@@ -659,7 +659,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [0, 237, 8],
+		"innerColor": [217, 158, 78],
 		"cities": ["Vilnius"]
 	}
 ]
