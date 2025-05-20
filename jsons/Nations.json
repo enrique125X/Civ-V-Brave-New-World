@@ -52,8 +52,8 @@
 		"neutralHello": "?",
 		"hateHello": "?",
 		"tradeRequest": "Will you consider a trade?",
-		"outerColor": [251,255,206],
-		"innerColor": [255,177,9],
+		"outerColor": [250,255,239],
+		"innerColor": [184, 132, 7],
 		"uniqueName": "Treasures of Nineveh",
 		"uniques": [
 			// TODO: When a city is conquered, gain a free Technology already discovered by its owner. Gaining a city through a trade deal does not count, and it can only happen once per enemy city.
