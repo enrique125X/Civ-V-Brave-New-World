@@ -462,11 +462,17 @@
 	},
 	{
 		"name": "Terracotta Army",
-		"culture": 6,
+		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Provides a [Barracks] in your first [3] cities for free" // TODO: Creates a Copy of each unique Military Unit you currently possess
+			"Comment [Create a copy of each type of military unit you currently possess.]",
+			"Triggers a [Terracotta Army - Melee] event <hidden from users>",
+			"Triggers a [Terracotta Army - Archery] event <hidden from users>",
+			"Triggers a [Terracotta Army - Mounted] event <hidden from users>",
+			"Triggers a [Terracotta Army - Siege] event <hidden from users>",
+			"Triggers a [Terracotta Army - Gunpowder] event <hidden from users>",
+			"Triggers a [Terracotta Army - Armored] event <hidden from users>"
 		],
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
