@@ -438,8 +438,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
-			// TODO: Unhappiness from number of citizens in non-occupied cities reduced by 10%
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
 			"Only available <after adopting [Patronage]>"
 			// TODO: Grants 2 additional Delegates for the World Congress
 		],
