@@ -217,7 +217,7 @@
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
 		"uniques": [
-			"[+1 Culture, +2 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
+			"[+1 Culture, +3 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
 			// TODO: Trade Route owners receive +2 Gold for each Trade Route sent to Morocco.
 		],
 		"spyNames": ["el-Krim", "ibn-Battuta", "al-Jazzar", "al-Kahina", "Hayyuj", "Kusayla", "al-Idrisi", "Salih", "Tariq", "Dihya"],
@@ -246,12 +246,11 @@
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
 		"uniques": [
-			"[+100]% [Gold] [in capital]",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
 			"Cannot build [Settler] units",
 			"May not annex cities",
-			"May buy items in puppet cities"
-			// TODO: Double the normal number of Trade Route available
+			"May buy items in puppet cities",
+			"Double quantity of [Trade Route] produced"
 		],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
 		"cities": ["Venice"]
