@@ -356,13 +356,14 @@
         "unitType": "Civilian Water",
         "uniques": [
 			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
-            "Is part of Great Person group [War]",
+			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
+			"Comment [Can always traverse ocean tiles]", // See Building/Palace
+            "Is part of Great Person group [General]",
             "Great Person - [War]",
             "Unbuildable",
             "Uncapturable",
 			"Can be earned through combat",
 			"[2] Movement <after adopting [Navigation School]>"
-			// TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
         ],
         "movement": 4
     },
@@ -392,7 +393,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-            "Is part of Great Person group [Merchant]",
+            "Is part of Great Person group [Merchant] <hidden from users>",
 			"Great Person - [Gold]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
