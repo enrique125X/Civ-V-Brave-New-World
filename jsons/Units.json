@@ -410,7 +410,7 @@
         "uniques": [
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Can generate a large amount of culture", // Write Political Treatise
-            "Is part of Great Person group [Artist]",
+            "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
@@ -429,7 +429,7 @@
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
             "Instantly provides [50] [Tourism] <by consuming this unit>", // Perform Concert Tour
-            "Is part of Great Person group [Artist]",
+            "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
