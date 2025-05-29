@@ -152,6 +152,7 @@
 		"uniques": [
 			"Provides [2] [Tourism] <after discovering [Flight]>"
 		],
+		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry"
 	},
 	{

@@ -432,14 +432,15 @@
         "adjective": ["German"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Scientific",
-	 
+		"personality": "Otto von Bismarck",
+
         "startIntroPart1": "Hail mighty Bismarck, first canchellor of Germany and her empire! Germany is an upstart nation, fashioned from the ruins of the Holy Roman Empire and finally unified in 1871, a little more than a century ago. The German people have proven themselves to be creative, industrious a ferocious warriors. Despite enduring great catastrophes in the first half of the 20th century, Germany remains a worldwide economic, artistic and technological leader.",
         "startIntroPart2": "Great Prince Bismarck, the German people look up too you to lead them to greater days of glory. Their determination is strong, and now they turn to you, their beloved iron chancellor, to guide them once more. Will you rile and conquer through blood and iron, or foster the Germanic arts and industry? Can you build a civilization that will stand the test of time?",
 	 
         "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
         "attacked": "Corrupted villain! We will bring you into the ground!",
         "defeated": "Germany has been destroyed. I weep for the future generations.",
-	 //denounced?
+        "denounced": "That boldness is risky, especially if you lack the strength to back it up.",
         "introduction": "Guten tag. In the name of the great German people, I bid you welcome.",
         "neutralHello": "What now?",
         "hateHello": "So, out with it!",
@@ -450,7 +451,7 @@
         "uniqueName": "Furor Teutonicus",
         "uniques": [
             "When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
-			"[-25]% maintenance costs" //Should just be for Land units
+			"[-25]% maintenance costs <for [Land] units>"
 		],
 	    "spyNames": ["Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton",]
         "cities": [ "Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
@@ -467,14 +468,15 @@
         "adjective": ["Irochese"],
         "startBias": ["Avoid [Coast]","Forest"],
         "preferredVictoryType": "Scientific",
-	
+		"personality": "Hiawatha",
+
         "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Long have your people lived near the great and holy lake Ontario in the land that has come to be known as the New York state in North America. In the mists of antiquity, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida united into one nation, the Haudenosaunee, the Iroquois. With no written language, the wise men of your nation created the great law of peace, the model for many contitutions including that of the United States. For many years, your people battled great enemies, such as the Huron, and the French and English invaders. Tought outnumbered and facing weapons far more advanced than the ones your warriors wielded, the Iroquois survived and prospered, until they were finally overwhelmed by the mighty armies of the new United States.",
         "startIntroPart2": "Oh noble Hiawatha, listen to the cries of your people! They call out to you to lead them in peace and war, to rebuild the great longhouse and unite the tribes once again. Will you accept this challenge, great leader? Will you build a civilization that will stand the test of time?",
 	
         "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
         "attacked": "You evil creature! My braves will slaughter you!",
         "defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
-	//denounced?
+        "denounced": "Go back to the shadows, you fool.",
         "introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
         "neutralHello": "Good day.",
         "hateHello": "Oh, it's you.",
