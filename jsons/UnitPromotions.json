@@ -110,5 +110,14 @@
 			"Ignores terrain cost",
 			"Comment [Double influence when conducting a Trade Route in City-States]"
 		]
+	},
+	{
+		"name": "The Great Warpath",
+		"uniques": [
+			"Double movement in [Jungle]",
+			"Double movement in [Forest]",
+			"Only available <for [Iroquois] Civilizations>",
+			"This Promotion is free <hidden from users>"
+		]
 	}
 ]

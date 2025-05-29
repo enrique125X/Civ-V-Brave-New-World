@@ -10,8 +10,7 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [Caravansary Benefit]>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
-			"Double movement in [Jungle] <for [Iroquois] Civilizations> <hidden from users>",
-			"Double movement in [Forest] <for [Iroquois] Civilizations> <hidden from users>",
+			"[1] Movement <for [Arabia] Civilizations> <hidden from users>", // Caravans gain 50% extended range
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
 			"Instantly consumes [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
@@ -20,6 +19,9 @@
 			"Uncapturable <hidden from users>",
 			"Cannot embark"
 			// TODO: Within own cities, provide food and production after granary or workshop
+		],
+		"promotions": [
+			"The Great Warpath" // Iroquois unique
 		]
 	},
 	{
