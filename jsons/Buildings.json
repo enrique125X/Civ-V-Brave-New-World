@@ -142,6 +142,20 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Mughal Fort",
+		"replaces": "Castle",
+		"uniqueTo": "India",
+		"hurryCostModifier": 25,
+		"cityHealth" : 25,
+		"cityStrength" : 7,
+		"culture" : 2,
+		"uniques": [
+			"Provides [2] [Tourism] <after discovering [Flight]>"
+		],
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry"
+	},
+	{
 		"name": "Amphitheater",
 		"culture": 1,
 		"requiredBuilding": "Monument",
