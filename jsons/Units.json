@@ -293,7 +293,7 @@
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 42, // TODO: Is this 50 in BNW?
+		"strength": 42,
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
