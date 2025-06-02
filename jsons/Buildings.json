@@ -1469,9 +1469,7 @@
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
-			"Unavailable <after adopting [Autocracy]> <hidden from users>",
-
-			"Remove [Ideology Available] [in your cities] <upon turn end> <hidden from users>" // TODO: This doesn't seem to work.
+			"Unavailable <after adopting [Autocracy]> <hidden from users>"
 		]
 	}
 ]
