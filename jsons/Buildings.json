@@ -17,35 +17,15 @@
 		]
 	},
 	{
-		"name": "Factory",
-		"cost": 360,
-		"production": 4,
-		"percentStatBonus": {"production": 10},
-		"specialistSlots": {"Engineer": 2},
-		"requiredBuilding": "Workshop",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"requiredResource": "Coal",
-		"requiredTech": "Industrialization",
-		"uniques": [
-			"[+25]% [Science] <after adopting [Workers' Faculties]>"
-		],
-		"civilopediaText": [
-			{
-				"text": "Own 3 Factories to unlock an Ideology",
-				"link": "Tutorial/Ideology"
-			}
-		]
-	},
-	{
 		"name": "Airport",
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
 			// TODO: Allows airlifting to other cities with Airports
  			// TODO: Increases air unit capacity of the city from 6 to 10.
-			 "Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
-			 "Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
+			"All newly-trained [Fighter] units [in this city] receive the [[Airport] ability] promotion", // TODO: This isn't a real thing, it's just instead of the original benefits.
+			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Radar"
 	},
@@ -54,6 +34,7 @@
 		"cost": 120,
 		"maintenance": 0,
 		"uniques": [
+			// Land trade routes originating from this city have a 50% increase in range and produce an additional 2 Gold Gold when connecting to another civilization.
 			"All newly-trained [Caravan] units [in this city] receive the [[Caravansary] ability] promotion"
 		],
 		"requiredTech": "Horseback Riding"
@@ -69,7 +50,7 @@
 		"requiredTech": "Refrigeration"
 	},
 	{
-		"name": "Theatre", // Named "Zoo" in Brave New World. Renamed in English.properties
+		"name": "Theatre", // Named "Zoo" in BNW. Renamed in English.properties
 		// https://civilization.fandom.com/wiki/Zoo_(Civ5)
 		"happiness": 2,
 		"requiredBuilding": "Colosseum",
@@ -258,14 +239,11 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"New [Military] units start with [15] XP [in this city]",
-			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion <before the [Industrial era]>" // Pre-Gunpowder era.
+			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion <before the [Renaissance era]>" // Pre-Gunpowder era.
 		],
         "requiredTech": "Bronze Working",
 		"civilopediaText": [
-			{
-				"text": "Buffalo Horns",
-				"link": "Promotion/Buffalo Horns"
-			}
+			{ "text": "Buffalo Horns", "link": "Promotion/Buffalo Horns" }
 		]
     },
 	{
@@ -302,9 +280,10 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			// TODO: Forms a City Connection City Connection with the Capital Capital over water.
-			// TODO: Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 Gold when connecting to another civilization. A Harbor must also exist in the Capital Capital (or in a city connected to the Capital Capital).
+			// TODO: Forms a City Connection with the Capital over water.
 			"Connects trade routes over water",
+			// TODO: Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 Gold when connecting to another civilization. A Harbor must also exist in the Capital (or in a city connected to the Capital).
+			"All newly-trained [Cargo Ship] units [in this city] receive the [[Harbor] ability] promotion",
 			"Must be next to [Coast]"
 		],
 		"requiredTech": "Compass"
@@ -329,7 +308,11 @@
 		"name": "Hagia Sophia", // Removed +1 Great Artist point.
 		"faith": 3,
 		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
+		"uniques": [
+			"Gain a free [Temple] [in this city]",
+			"Free [Great Prophet] appears",
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -374,7 +357,7 @@
 			"[+10]% growth [in your cities]",
 			"[+15]% Production when constructing [Archery] units [in this city]"
 		],
-		"quote": "\"It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of the air, that emanation from the old trees, that so wonderfully changes and renews a weary spirit.\"' - Robert Louis Stevenson"
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of the air, that emanation from the old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	{
 		"name": "Hanging Gardens",
@@ -419,10 +402,11 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Musician] units appear",
+			"Free [Great Musician] appears",
 			"Provides [3] [Great Work of Music Slot]"
 		],
-		"requiredTech": "Radio"
+		"requiredTech": "Radio",
+		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery' - Walter Winchell"
 	},
 	{
 		"name": "Sydney Opera House",
@@ -443,7 +427,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Writer] units appear",
+			"Free [Great Writer] appears",
 			"Provides [2] [Great Work of Writing Slot]"
 		],
 		"requiredTech": "Printing Press",
@@ -472,7 +456,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"[+25]% [Gold] from Trade Routes", // +25% Gold from City Connection City Connections
+			"[+25]% [Gold] from Trade Routes", // +25% Gold from City Connections
 			"Must have an owned [Mountain] within [2] tiles"
 		],
 		"requiredTech": "Guilds",
@@ -482,7 +466,6 @@
 		"name": "Forbidden Palace",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
 			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
 			"Only available <after adopting [Patronage]>"
@@ -512,7 +495,7 @@
 		"isWonder": true,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Comment [Create a copy of each type of military unit you currently possess.]",
+			"Comment [Create a copy of each type of military unit you currently possess]",
 			"Triggers a [Terracotta Army - Melee] event <hidden from users>",
 			"Triggers a [Terracotta Army - Archery] event <hidden from users>",
 			"Triggers a [Terracotta Army - Mounted] event <hidden from users>",
@@ -527,8 +510,10 @@
 		"culture": 1,
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
-			"Gain a free [Castle] [in this city]"],
+		"uniques": [
+			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"
+		],
 		"requiredTech": "Chivalry",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
@@ -551,7 +536,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Artist] units appear",
+			"Free [Great Artist] appears",
 			"Provides [4] [Great Work of Art Slot]",
 			"Only available <after adopting [Exploration]>"
 		],
@@ -590,15 +575,13 @@
         "uniques": [
 			"[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in your cities]",
-			"Comment [Negates Tourism bonus from other players' Internet]"
+			"Comment [Negates [Tourism] bonus from other players discovering [The Internet]]"
 		],
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin",
 		"civilopediaText": [
-			{
-				"text": "The Internet",
-				"link": "Technology/The Internet"
-			}
+			{ "text": "The Internet", "link": "Technology/The Internet" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
 		]
     },
 	{
@@ -632,7 +615,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[3] free [Missionary] units appear",
-			"Can only be built <in [in holy cities] cities>",
+			"Can only be built <in [Holy] cities>",
 			"Only available <when religion is enabled>"
 		],
 		"requiredTech": "Theology",
@@ -681,7 +664,8 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-			"Provides [1] [Tourism] <for every [1] [[Wonder] Buildings]> <in this city>", // TODO: +100% of the Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [1] [[Wonder] Buildings]> <in this city>", // TODO: +100% of the Culture output of Wonders in the city added to Tourism
+			// "Provides [1] [Tourism] <in [improved] tiles> <in this city>", // TODO: +100% of the Culture output of Improvements in the city added to Tourism
 			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
             "Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"
@@ -737,7 +721,8 @@
 			"Provides [1] [Great Work of Art Slot]",
 			"Instantly provides [1] [Great Work of Art]"
 		],
-        "requiredTech": "Drama and Poetry"
+        "requiredTech": "Drama and Poetry",
+		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
     },
 	{
 		"name": "Sistine Chapel",
@@ -763,21 +748,25 @@
 			// TODO: Cost is per civilization
 			// TODO: Requires International Project https://civilization.fandom.com/wiki/International_Project_(Civ5)
 		],
-        "requiredTech": "Satellites"
+        "requiredTech": "Satellites",
+		"quote": "'Building one Space Station for everyone was and is insane; we should have built a dozen.' - Larry Niven"
     },
 	{
         "name": "Eiffel Tower",
-        "culture": 5,
+        "culture": 1,
         "happiness": 5,
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
+		"uniques": [
+			"Provides [12] [Tourism]"
+		],
         "requiredTech": "Radio",
         "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
     },
 	{
         "name": "Museum",
 		"cost": 300,
-		"maintenance": 3,
+		"maintenance": 1,
         "culture": 1,
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
@@ -854,7 +843,7 @@
 		"requiredTech": "Iron Working"
 	},
 	{
-		"name": "The Great Library",
+		"name": "The Great Library", // "Great Library" in Civ 5 BNW. Renamed in English.properties
 		"cost": 185,
 		"science": 3,
 		"culture": 1,
@@ -1446,13 +1435,12 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 
-	// Events
+	// Event Buildings
 	{
-		"name": "Ideology Available", // Used to Trigger the Ideology pop up.
-		"hurryCostModifier": -100,
+		"name": "Ideology", // Used to Trigger the Ideology pop up.
 		"cost": 1,
 		"uniques": [
-			"Comment [Visit the Policies Screen to select an Ideology]",
+			"Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
 			"Automatically built in all cities where it is buildable <hidden from users>",
 
 			// Only for Humans so that AI picks based on AI weighted decisions.
@@ -1461,15 +1449,23 @@
 			// AI gets a free social policy since we give it to humans.
 			"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
 
-			"Will not be displayed in Civilopedia",
 			"Moves to new capital when capital changes <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Only available <in cities with a [Palace]> <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Autocracy", "link": "Policy/Autocracy" },
+			{ "text": "Freedom", "link": "Policy/Freedom" },
+			{ "text": "Order", "link": "Policy/Order" },
+			{ "separator": true },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Modern era", "link": "Era/Modern era" },
+			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
 		]
 	}
 ]

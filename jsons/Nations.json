@@ -23,7 +23,9 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
+		"uniqueText": "Receive a free Social Policy when you advance to the next era.",
 		"uniques": [
+			// Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
 			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
@@ -32,7 +34,6 @@
 			"Free Social Policy <upon entering the [Atomic era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Information era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Future era]> <hidden from users>",
-			"Comment [Free Social Policy upon entering a new era]", // Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
 			"Preferred Ideology: Autocracy"
 		],
 		"spyNames": ["Wincenty", "Roman", "Benita", "Jan", "Kazimierz", "Josef", "Krystyna Skarbek", "Tarnowski", "Marian", "Alenka"],
@@ -100,7 +101,7 @@
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
 		"uniques": [
-			"Double quantity of [Tourism] produced <during a Golden Age>", // Tourism output is +100% during their Golden Ages.
+			"Double quantity of [Tourism] produced <during a Golden Age>",
 			"[Great Artist] is earned [50]% faster <during a Golden Age>",
 			"[Great Musician] is earned [50]% faster <during a Golden Age>",
 			"[Great Writer] is earned [50]% faster <during a Golden Age>"
@@ -190,12 +191,12 @@
 
 		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
 		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
-		"declaringWar": "Don't mean to stand in your way, but I have to protect them!",
-		"attacked": "How dare you! Really insignificant as well!",
-		"defeated": "You may win, but you cannot win upon my spirit.",
+		"declaringWar": "You stand between my army and their destiny... Prepare for war!",
+		"attacked": "You dare attack the great Gajah Mada?!",
+		"defeated": "I'm impressed by your victory, even if it came at my expense.",
 		"denounced": "Your words ring hollow.",
-		"introduction": "You came before the great warrior, Gajah Mada from Nusantara!",
-		"neutralHello": "Greetings!",
+		"introduction": "You stand before the great Gajah Mada of Indonesia! What brings you to my empire?",
+		"neutralHello": "Welcome.",
 		"hateHello": "Are you a male concubine, stranger?",
 		"tradeRequest": "What if we make a deal, you and me?",
 
@@ -205,7 +206,7 @@
 		"uniques": [
 			"Preferred Ideology: Freedom"
 		],
-		"uniqueText": "The first 3 cities founded on continents other than where Indonesia started each provide 2 copies of a unique Indonesian Luxury Resource (either Cloves, Peppers, or Nutmeg).",
+		"uniqueText": "The first 3 cities founded on continents other than where Indonesia started each provide 2 copies of [Cloves], [Pepper], or [Nutmeg].",
 		"spyNames": ["Adityawarman", "Airlangga", "Citra", "Halayudha", "Jayakatwang", "Lingga", "Mahendradatta", "Prapana", "Raden", "Davi"],
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
@@ -213,18 +214,9 @@
 			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
 			"Yogyakarta","Bima","Sorong"],
 		"civilopediaText": [
-			{
-				"text": "Cloves",
-				"link": "Resource/Cloves"
-			},
-			{
-				"text": "Nutmeg",
-				"link": "Resource/Nutmeg"
-			},
-			{
-				"text": "Pepper",
-				"link": "Resource/Pepper"
-			}
+			{ "text": "Cloves", "link": "Resource/Cloves" },
+			{ "text": "Nutmeg", "link": "Resource/Nutmeg" },
+			{ "text": "Pepper", "link": "Resource/Pepper" }
 		]
 	},
 	{
@@ -354,7 +346,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ships of the Desert",
 		"uniques": [
-			"Comment [Caravans gain 50% extended range]", // @see Unit/Caravan
+			"Comment [[Caravan]s gain 50% extended range]", // @see Unit/Caravan
 			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
 			"Double quantity of [Oil] produced"
 		],
@@ -387,10 +379,10 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "City of Light",
-		"uniqueText": "Museums double Tourism in capital", // @see Building/Museum
 		"uniques": [
+			"Comment [[Museum]s double [Tourism] in capital]", // @see Building/Museum
+			"Provides [1] [Tourism] <for every [[Wonder] Buildings]> <in [Capital] cities>", // TODO: World Wonder theming bonuses are doubled in their Capital.
 			"Preferred Ideology: Order"
-			// TODO: World Wonder theming bonuses are doubled in their Capital.
 		],
 		"spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
@@ -435,7 +427,7 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
 
- {
+	{
         "name": "Germany",
         "leaderName": "Otto von Bismarck",
         "adjective": ["German"],
@@ -497,20 +489,14 @@
         "uniqueName": "The Great Warpath",
         "uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Comment [Caravans move along Forest and Jungle as if they were Roads.]", // @see Unit/Caravans
+			"Comment [[Caravan]s get double movement in [{Forest} {Jungle}]]" // @see Unit/Caravans
 			"Preferred Ideology: Freedom"
 		],
 	    "spyNames": ["Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"],
         "cities": ["Onoondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River","Canandaigua Lake","Lake Simcoe",
             "Salamanca","Gowanda","Buffalo","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle","Chondote","Canajoharie",
             "Nedrow","Syracuse","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley","Schoharie","Bay of Quinte","Kanawale",
-            "Kanatsiokareke","Tyendinaga","Hahta"],
-		"civilopediaText": [
-			{
-				"text": "Caravan",
-				"link": "Unit/Caravan"
-			}
-		]
+            "Kanatsiokareke","Tyendinaga","Hahta"]
     },
 
 	// City-States sorted by cityStateType, name
