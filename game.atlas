@@ -18,56 +18,154 @@ BuildingIcons/Artists' Guild
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 1
+BuildingIcons/[Cathedral] [Great Work of Art]
   rotate: false
   xy: 4, 546
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 2
+BuildingIcons/[Hermitage] [Great Work of Art] 1
   rotate: false
   xy: 4, 546
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 3
+BuildingIcons/[Hermitage] [Great Work of Art] 2
   rotate: false
   xy: 4, 546
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 4
+BuildingIcons/[Hermitage] [Great Work of Art] 3
   rotate: false
   xy: 4, 546
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 5
+BuildingIcons/[Hermitage] [Theming Bonus]
   rotate: false
   xy: 4, 546
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 6
+BuildingIcons/[Museum] [Great Work of Art] 1
   rotate: false
   xy: 4, 546
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 7
+BuildingIcons/[Museum] [Great Work of Art] 2
   rotate: false
   xy: 4, 546
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Art 8
+BuildingIcons/[Museum] [Theming Bonus]
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Palace] [Great Work of Art]
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Parthenon] [Great Work of Art]
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Sistine Chapel] [Great Work of Art] 1
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Sistine Chapel] [Great Work of Art] 2
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Sistine Chapel] [Theming Bonus]
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Louvre] [Great Work of Art] 1
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Louvre] [Great Work of Art] 2
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Louvre] [Great Work of Art] 3
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Louvre] [Great Work of Art] 4
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Louvre] [Theming Bonus]
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Uffizi] [Great Work of Art] 1
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Uffizi] [Great Work of Art] 2
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Uffizi] [Great Work of Art] 3
+  rotate: false
+  xy: 4, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Uffizi] [Theming Bonus]
   rotate: false
   xy: 4, 546
   size: 100, 100
@@ -75,13 +173,6 @@ BuildingIcons/Great Work of Art 8
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Art
-  rotate: false
-  xy: 4, 546
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Work of Art Slot
   rotate: false
   xy: 4, 546
   size: 100, 100
@@ -907,62 +998,6 @@ ResourceIcons/Artifact
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Artifact 1
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Artifact 2
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Artifact 3
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Artifact 4
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Artifact 5
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Artifact 6
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Artifact 7
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Artifact 8
-  rotate: false
-  xy: 240, 910
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 ResourceIcons/Bison
   rotate: false
   xy: 348, 802
@@ -984,62 +1019,6 @@ ResourceIcons/Great Work of Music
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Music 1
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Music 2
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Music 3
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Music 4
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Music 5
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Music 6
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Music 7
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Music 8
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Musicians' Guild
   rotate: false
   xy: 240, 694
@@ -1047,7 +1026,63 @@ BuildingIcons/Musicians' Guild
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Great Work of Music Slot
+BuildingIcons/[Broadcast Tower] [Great Work of Music]
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Broadway] [Great Work of Music] 1
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Broadway] [Great Work of Music] 2
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Broadway] [Great Work of Music] 3
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Broadway] [Theming Bonus]
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Opera House] [Great Work of Music]
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Sydney Opera House] [Great Work of Music] 1
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Sydney Opera House] [Great Work of Music] 2
+  rotate: false
+  xy: 240, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Sydney Opera House] [Theming Bonus]
   rotate: false
   xy: 240, 694
   size: 100, 100
@@ -1061,62 +1096,6 @@ ResourceIcons/Great Work of Writing
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Work of Writing 1
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Writing 2
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Writing 3
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Writing 4
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Writing 5
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Writing 6
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Writing 7
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Work of Writing 8
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Writers' Guild
   rotate: false
   xy: 348, 694
@@ -1124,7 +1103,91 @@ BuildingIcons/Writers' Guild
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Great Work of Writing Slot
+BuildingIcons/[Amphitheater] [Great Work of Writing]
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Globe Theatre] [Great Work of Writing] 1
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Globe Theatre] [Great Work of Writing] 2
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Globe Theatre] [Theming Bonus]
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Heroic Epic] [Great Work of Writing]
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[National Epic] [Great Work of Writing]
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Oxford University] [Great Work of Writing] 1
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Oxford University] [Great Work of Writing] 2
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Oxford University] [Theming Bonus]
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[Royal Library] [Great Work of Writing]
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Great Library] [Great Work of Writing] 1
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Great Library] [Great Work of Writing] 2
+  rotate: false
+  xy: 348, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/[The Great Library] [Theming Bonus]
   rotate: false
   xy: 348, 694
   size: 100, 100
