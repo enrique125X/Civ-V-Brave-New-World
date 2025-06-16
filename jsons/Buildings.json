@@ -541,9 +541,7 @@
 			"Provides [3] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+3 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[Broadway] [Great Work of Music] 1",
@@ -641,9 +639,7 @@
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[Sydney Opera House] [Great Work of Music] 1",
@@ -720,9 +716,7 @@
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[Globe Theatre] [Great Work of Writing] 1",
@@ -901,9 +895,7 @@
 			"Provides [4] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+4 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[The Louvre] [Great Work of Art] 1",
@@ -1196,9 +1188,7 @@
 			"Provides [3] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+3 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[Uffizi] [Great Work of Art] 1",
@@ -1329,9 +1319,7 @@
 			"Only available <in cities with a [Parthenon]> <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Sistine Chapel",
@@ -1369,9 +1357,7 @@
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[Sistine Chapel] [Great Work of Art] 1",
@@ -1490,9 +1476,7 @@
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
     {
         "name": "[Museum] [Great Work of Art] 1",
@@ -1749,9 +1733,7 @@
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[The Great Library] [Great Work of Writing] 1",
@@ -1830,9 +1812,7 @@
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[Oxford University] [Great Work of Writing] 1",
@@ -1914,9 +1894,7 @@
 			"Provides [3] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+3 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
 		],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "[Hermitage] [Great Work of Art] 1",
