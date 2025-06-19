@@ -8,7 +8,7 @@
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
 		"uniques": [
-			"Can only be built on [Land] tiles <with [1] to [6] neighboring [Luxury resource] tiles>",
+			"Must be next to [Luxury resource]",
 			"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Chateau] tiles>",
 			"Gives a defensive bonus of [50]%",
 			"[+2 Gold, +1 Culture] <after discovering [Flight]>",
@@ -37,13 +37,12 @@
 		"gold": 1, // Add the gold so that it's colored as a luxury improvement
 		"techRequired": "Navigation",
 		"uniques": [
+			"[-1 Gold] <hidden from users>", // Counter-act the gold: 1
 			"Gives a defensive bonus of [50]%",
-			"[-1 Gold] <for [Human player] Civilizations> <hidden from users>",
 			"Can only be built on [{Coastal} {City-State}] tiles",
 			"Must be next to [Luxury resource]",
 			"Cannot be built on [resource] tiles",
 			"Unavailable <within [4] tiles of a [Feitoria]> <hidden from users>", // Can't double-tip into the same resource
-			"Unavailable <for [AI player] Civilizations> <hidden from users>", // Prevent AI workers from getting confused
 			"Can be built outside your borders <hidden from users>",
 			"Will not be replaced by automated units <hidden from users>",
 			"Gain control over [Land] tiles in a [0]-tile radius <hidden from users>",
@@ -71,11 +70,6 @@
 			"Provides [1] [Whales] <with [1] to [6] neighboring [Whales] tiles>",
 			"Provides [1] [Wine] <with [1] to [6] neighboring [Wine] tiles>",
 			"Destroyed when pillaged <hidden from users>" // TODO: Considered an act of war against Portugal
-		],
-		"civilopediaText": [
-			{
-				"text": "The [Feitoria] allows [Portugal] to use luxury resources of city-states without even having them as allies, which provides a great advantage. Research [Navigation], then send out [Worker]s to all city-states whose resources interest you."
-			}
 		]
 	},
 	{
