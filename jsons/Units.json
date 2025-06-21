@@ -25,7 +25,7 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence <for units with [[Caravansary] ability]> <hidden from users>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
-			"[1] Movement <for [Arabia] Civilizations> <hidden from users>", // Caravans gain 50% extended range
+			"[1] Movement <for [Caravans gain 50% extended range] Civilizations> <hidden from users>", // Caravans gain 50% extended range
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
 			"Instantly consumes [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
@@ -500,6 +500,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
+			"[+100]% Gold from Great Merchant trade missions",
             "Is part of Great Person group [Merchant] <hidden from users>",
 			"Great Person - [Great Person]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence", // Double Gold, and Double Influence (Double Gold in Nations.json)

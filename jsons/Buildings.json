@@ -437,6 +437,7 @@
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Water] tiles [in this city]",
 			"Instantly provides [1] [Trade Route]",
+			"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>",
 			"Free [Cargo Ship] appears"
 		],
 		"requiredTech": "Iron Working",
@@ -809,6 +810,7 @@
 			"[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]",
 			"[+6 Culture] [in this city] <after discovering [Archaeology]>",
 			"Instantly provides [1] [Trade Route]",
+			"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>",
 			"Free [Caravan] appears"
 		],
 		"requiredTech": "Currency",

@@ -277,12 +277,11 @@
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
 		"uniques": [
-			"Double quantity of [Trade Route] produced",
-			"[+100]% Gold from Great Merchant trade missions", // Unit/Merchant of Venice
 			"Cannot build [Settler] units",
 			"May not annex cities",
-			"May buy items in puppet cities",
+			"Double the normal number of Trade Routes available",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
+			"May buy items in puppet cities",
 			"Preferred Ideology: Freedom"
 		],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
@@ -346,7 +345,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ships of the Desert",
 		"uniques": [
-			"Comment [[Caravan]s gain 50% extended range]", // @see Unit/Caravan
+			"Caravans gain 50% extended range", // @see Unit/Caravan
 			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
 			"Double quantity of [Oil] produced"
 		],
