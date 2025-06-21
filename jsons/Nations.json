@@ -527,7 +527,7 @@
 	},
 	{
 		"name": "Kyzyl",
-		"adjective": ["Kievan"],
+		"adjective": ["Kyzyl"],
 		"cityStateType": "Cultured",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -535,7 +535,7 @@
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0, 163, 181],
-		"cities": ["Kiev"]
+		"cities": ["Kyzyl"]
 	},
 	{
 		"name": "Kabul",
