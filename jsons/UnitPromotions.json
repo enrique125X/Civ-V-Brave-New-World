@@ -116,7 +116,7 @@
 			"[This Unit] takes [20] damage <upon ending a turn in a [Enemy Land] tile>"
 		],
 		"prerequisites": ["Mystic Blade"],
-		"innerColor": [174, 42, 41]
+		"innerColor": [178, 52, 51]
 	},
 	{
 		"name": "Evil Spirits",
@@ -125,7 +125,7 @@
 			"[-30]% Strength <when defending>"
 		],
 		"prerequisites": ["Mystic Blade"],
-		"innerColor": [174, 42, 41]
+		"innerColor": [178, 52, 51]
 	},
 
 	// Paratrooper and Future Soldier

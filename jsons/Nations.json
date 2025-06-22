@@ -349,7 +349,7 @@
 		"uniques": [
 			"Caravans gain 50% extended range", // @see Unit/Caravan
 			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
-			"[+100]% of [Oil] resource production"
+			"[+100]% [Oil] resource production"
 		],
 		"spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
