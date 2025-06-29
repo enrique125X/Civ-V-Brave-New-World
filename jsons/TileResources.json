@@ -167,7 +167,7 @@
 			"Landmark"
 		],
         "uniques": [
-			"Generated on every [200] tiles",
+			"Generated on every [250] tiles",
 			"Not shown on world screen",
 			"Cannot be traded <hidden from users>",
 			"Antiquity"
@@ -189,7 +189,7 @@
 			"Archaeological Dig"
 		],
         "uniques": [
-			"Generated on every [250] tiles",
+			"Generated on every [400] tiles",
 			"Not shown on world screen",
 			"Cannot be traded <hidden from users>",
 			"Antiquity"

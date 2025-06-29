@@ -96,7 +96,7 @@
 - [Theatre](https://thenounproject.com/icon/theatre-7449828/) by Icogenix
 - [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu
 - [Captain](https://thenounproject.com/icon/captain-7649814/) by Ponisih
-- [Ruins](https://thenounproject.com/icon/ruins-175277/) by Creative Stall
+- [Antiquity Site and Hidden Antiquity Site](https://thenounproject.com/icon/ruins-5758116/) by Lars Meiertoberens
 - [Artifact](https://thenounproject.com/icon/Artifact-3243819/) by Vectors Point
 - [Internet](https://thenounproject.com/icon/internet-7818125/) by Sugeng Riyanto
 - [Sword](https://thenounproject.com/icon/sword-7843777/) by Kim Sun Young
@@ -152,3 +152,4 @@
 - [Siege Tower, Sapper](https://thenounproject.com/icon/bull-head-2717640/) by Laymik
 - [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
 - [Lightning Warfare](https://thenounproject.com/icon/tank-7284097/) by Taewon Kang
+- [Great Work of Writing](https://thenounproject.com/icon/ink-pen-5709031/) by Garis Tanam
