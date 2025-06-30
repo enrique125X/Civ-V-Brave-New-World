@@ -463,7 +463,7 @@
 		"isWonder": true,
 		"requiredTech": "Archery",
 		"uniques": [
-			"[+10]% growth [in your cities]",
+			"[+10]% Food [in your cities]",
 			"[+15]% Production when constructing [Archery] units [in this city]"
 		],
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of the air, that emanation from the old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
