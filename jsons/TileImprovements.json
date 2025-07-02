@@ -164,7 +164,9 @@
 			"Comment [Provides a random bonus when entered]",
 			"Provides a random bonus when entered <for units without [Native Tongue]> <hidden from users>",
 			"Unpillagable",
-			"Unbuildable"
+			"Unbuildable",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]"
 		]
 	}
 ]
