@@ -203,7 +203,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <when attacking> <vs cities>",
 			"Consumes [1] [Horses]"
 		],
 		"promotions": [
@@ -268,7 +268,7 @@
 		],
 		"uniques": [
 			"Can move after attacking",
-			"[-33]% Strength <vs cities> <when attacking>",
+			"[-33]% Strength <when attacking> <vs cities>",
 			"No defensive terrain bonus",
 			"Consumes [1] [Horses]"
 		],
@@ -290,7 +290,7 @@
 		],
 		"uniques": [
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <when attacking> <vs cities>",
 			"No defensive terrain bonus",
 			"Consumes [1] [Horses]"
 		],
