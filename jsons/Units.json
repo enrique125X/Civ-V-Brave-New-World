@@ -474,8 +474,8 @@
 			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
 			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
 			// Can always traverse ocean tiles // @see Building/Palace
-            "Is part of Great Person group [General]",
-            "Great Person - [War]",
+            "Is part of Great Person group [Admiral]",
+            "Great Person - [Navy]",
             "Unbuildable",
             "Uncapturable",
 			"Can be earned through combat",
@@ -510,8 +510,8 @@
 		"movement": 2,
 		"uniques": [
 			"[+100]% Gold from Great Merchant trade missions",
-            "Is part of Great Person group [Merchant] <hidden from users>",
-			"Great Person - [Great Person]",
+            "Is part of Great Person group [Great Person] <hidden from users>",
+			"Great Person - [Gold]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence", // Double Gold, and Double Influence (Double Gold in Nations.json)
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Double movement in [Coast]", // Extra Embarked Movement speed (6 vs 4)
@@ -525,7 +525,7 @@
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
-            "Can generate a large amount of culture", // Write Political Treatise
+            "Can generate a large amount of culture", // Write Political Treatise. Culture Bomb
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
@@ -544,7 +544,8 @@
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
-            "Instantly provides [50] [Tourism] <by consuming this unit>", // Perform Concert Tour
+			// TODO: Is 50 Tourism enough for the concert?
+            "Instantly provides [50] [Tourism] <by consuming this unit> <for [Human player] Civilizations>", // Perform Concert Tour
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
@@ -568,7 +569,7 @@
             "Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable",
-			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <for [Human player] Civilizations> <by consuming this unit> <hidden from users>"
+			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <by consuming this unit> <hidden from users>"
 		],
 		"movement": 2
 	}
